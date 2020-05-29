@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="variable" label="Namespace List" language="en" table="var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>variable</element>
+            <help/>
+            <hint/>
+            <label>Namespace List</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-17 07:34:11</sys_created_on>
+            <sys_id>2cebc8e41b9c905046b8c9951a4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Namespace List</sys_name>
+            <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f_variable_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-17 07:34:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

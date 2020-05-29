@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>authorization_code</grant_type>
+        <jwt_provider/>
+        <name>Azure_Notification_Hub</name>
+        <oauth_entity display_value="Azure Notification Hub">8cf73a57db0bc010c53e57a0cf961928</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 05:54:05</sys_created_on>
+        <sys_id>ecf7f657db0bc010c53e57a0cf9619ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Azure_Notification_Hub</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>oauth_entity_profile_ecf7f657db0bc010c53e57a0cf9619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 10:36:02</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>
