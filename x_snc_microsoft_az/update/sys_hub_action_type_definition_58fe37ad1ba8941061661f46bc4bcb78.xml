@@ -6,7 +6,7 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">3fdb5ec31b84105046b8c9951a4bcbe9</category>
+        <category display_value="Notification Hub Management">3fdb5ec31b84105046b8c9951a4bcbe9</category>
         <copied_from>e16164351b5c945061661f46bc4bcb1d</copied_from>
         <copied_from_name>Create WNS Registration</copied_from_name>
         <description/>
@@ -4655,7 +4655,7 @@ outputs.payload =
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">3fdb5ec31b84105046b8c9951a4bcbe9</category>
+        <category display_value="Notification Hub Management">3fdb5ec31b84105046b8c9951a4bcbe9</category>
         <copied_from/>
         <copied_from_name/>
         <description/>

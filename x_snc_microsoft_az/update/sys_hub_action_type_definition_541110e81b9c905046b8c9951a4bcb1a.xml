@@ -6,7 +6,7 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">36a311701b70d01046b8c9951a4bcb6d</category>
+        <category display_value="Metadata Retrieval">36a311701b70d01046b8c9951a4bcb6d</category>
         <copied_from>191df51f1bbf481061661f46bc4bcb67</copied_from>
         <copied_from_name>BaiduCredential - Notifications</copied_from_name>
         <description/>
@@ -495,7 +495,7 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">36a311701b70d01046b8c9951a4bcb6d</category>
+        <category display_value="Metadata Retrieval">36a311701b70d01046b8c9951a4bcb6d</category>
         <copied_from/>
         <copied_from_name/>
         <description/>

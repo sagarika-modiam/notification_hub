@@ -6,7 +6,7 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">5cc311701b70d01046b8c9951a4bcb74</category>
+        <category display_value="Namespace Management">5cc311701b70d01046b8c9951a4bcb74</category>
         <copied_from>178ae3a1db570810c53e57a0cf96198f</copied_from>
         <copied_from_name>Create or Update Namespace</copied_from_name>
         <description/>
@@ -4849,7 +4849,7 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">5cc311701b70d01046b8c9951a4bcb74</category>
+        <category display_value="Namespace Management">5cc311701b70d01046b8c9951a4bcb74</category>
         <copied_from/>
         <copied_from_name/>
         <description/>
