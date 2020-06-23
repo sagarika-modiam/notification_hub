@@ -9,7 +9,7 @@
         <category display_value="Notification Hub Management">3fdb5ec31b84105046b8c9951a4bcbe9</category>
         <copied_from>cf2b5ff3dbd78010c53e57a0cf961913</copied_from>
         <copied_from_name>Delete Notification Hub</copied_from_name>
-        <description/>
+        <description>&lt;p id = "short_desc"&gt; Deletes a notification hub associated with a namespace.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Subscription ID&lt;/b&gt; - Unique ID of the subscription.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Resource Group  Name&lt;/b&gt; - Name of the resource group.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Namespace Name&lt;/b&gt; - Name of the namespace.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Notification Hub Name&lt;/b&gt; - Name of the notification hub.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Either Subscription ID or Resource Group or Namespace or Notification Hub or API Version entered is invalid or not found.&lt;/li&gt;&lt;li&gt;Either mismatch between properties or property values entered are invalid.&lt;/li&gt;&lt;li&gt;Requests beyond max requests that can be processed by available resources.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>delete_notification_hub</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group  Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub_name}}","label":"action➛Notification Hub Name","type":"action","ref":""},{"name":"{{action.namespace_name}}","label":"action➛Namespace Name","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{step[2050f003-85c7-4131-ae91-d7a6ce335501].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[2050f003-85c7-4131-ae91-d7a6ce335501].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[2b4825f3-b601-4099-bfb7-19196591ab33].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[2b4825f3-b601-4099-bfb7-19196591ab33].status}}","label":"step➛Error Handling➛Status","type":"step","ref":""},{"name":"{{step[2b4825f3-b601-4099-bfb7-19196591ab33].error_message}}","label":"step➛Error Handling➛Error Message","type":"step","ref":""},{"name":"{{step[2b4825f3-b601-4099-bfb7-19196591ab33]._}}","label":"step➛Error Handling➛","type":"step","ref":""},{"name":"{{step[9eb20b8f-df5b-4261-be1c-96a641ed2ebd].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[9eb20b8f-df5b-4261-be1c-96a641ed2ebd].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""}]</label_cache>
@@ -1169,7 +1169,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">42d01ca81b9c905046b8c9951a4bcb38</action_input>
         <action_inputs/>
-        <action_type display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
+        <action_type display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:55:51</sys_created_on>
         <sys_id>c2d01ca81b9c905046b8c9951a4bcb42</sys_id>
@@ -1396,103 +1396,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8ad01ca81b9c905046b8c9951a4bcb43^sys_idNOT IN0ed01ca81b9c905046b8c9951a4bcb4d"/>
-    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="">8ad01ca81b9c905046b8c9951a4bcb43</action_input>
-        <action_inputs/>
-        <action_type display_value="List Notication Hub">884090a81b9c905046b8c9951a4bcb2a</action_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-17 07:55:52</sys_created_on>
-        <sys_id>0ed01ca81b9c905046b8c9951a4bcb4d</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:58:16</sys_updated_on>
-    </sys_hub_action_input_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=0ed01ca81b9c905046b8c9951a4bcb4d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>0ed01ca81b9c905046b8c9951a4bcb4d</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-17 07:55:52</sys_created_on>
-        <sys_id>02d01ca81b9c905046b8c9951a4bcb4f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:55:52</sys_updated_on>
-        <value>{{action.subscription_id}}</value>
-        <variable display_value="">f5afd06a1ba3001061661f46bc4bcbc0</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>0ed01ca81b9c905046b8c9951a4bcb4d</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-17 07:55:52</sys_created_on>
-        <sys_id>4ed01ca81b9c905046b8c9951a4bcb4e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:55:52</sys_updated_on>
-        <value>{{action.resource_group_name}}</value>
-        <variable display_value="">307619971b7f481061661f46bc4bcb53</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>0ed01ca81b9c905046b8c9951a4bcb4d</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-13 02:16:19</sys_created_on>
-        <sys_id>757cb8341b30d01046b8c9951a4bcbe9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:16:19</sys_updated_on>
-        <value>{{action.namespace_name}}</value>
-        <variable display_value="">9c4090a81b9c905046b8c9951a4bcb3b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>0ed01ca81b9c905046b8c9951a4bcb4d</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-13 02:16:19</sys_created_on>
-        <sys_id>b17cb8341b30d01046b8c9951a4bcbe9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:16:19</sys_updated_on>
-        <value>{{action.subscription_id}}</value>
-        <variable display_value="">944090a81b9c905046b8c9951a4bcb2e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>0ed01ca81b9c905046b8c9951a4bcb4d</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-17 07:55:52</sys_created_on>
-        <sys_id>c2d01ca81b9c905046b8c9951a4bcb4f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:55:52</sys_updated_on>
-        <value>{{action.namespace_name}}</value>
-        <variable display_value="">787619971b7f481061661f46bc4bcb63</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>0ed01ca81b9c905046b8c9951a4bcb4d</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-13 02:16:19</sys_created_on>
-        <sys_id>fd7cb8341b30d01046b8c9951a4bcbe8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:16:19</sys_updated_on>
-        <value>{{action.resource_group_name}}</value>
-        <variable display_value="">184090a81b9c905046b8c9951a4bcb34</variable>
-    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4343,61 +4246,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=148c3c341b30d01046b8c9951a4bcbf4^sys_idNOT IN948c3c341b30d01046b8c9951a4bcbfe"/>
-    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
-        <action_input display_value="">148c3c341b30d01046b8c9951a4bcbf4</action_input>
-        <action_inputs/>
-        <action_type display_value="List Notication Hub">884090a81b9c905046b8c9951a4bcb2a</action_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-13 02:16:29</sys_created_on>
-        <sys_id>948c3c341b30d01046b8c9951a4bcbfe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:58:24</sys_updated_on>
-    </sys_hub_action_input_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=948c3c341b30d01046b8c9951a4bcbfe"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>948c3c341b30d01046b8c9951a4bcbfe</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-13 02:16:29</sys_created_on>
-        <sys_id>5c8c3c341b30d01046b8c9951a4bcbff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:16:29</sys_updated_on>
-        <value>{{action.namespace_name}}</value>
-        <variable display_value="">9c4090a81b9c905046b8c9951a4bcb3b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>948c3c341b30d01046b8c9951a4bcbfe</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-13 02:16:29</sys_created_on>
-        <sys_id>988c3c341b30d01046b8c9951a4bcbff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:16:29</sys_updated_on>
-        <value>{{action.subscription_id}}</value>
-        <variable display_value="">944090a81b9c905046b8c9951a4bcb2e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_input_action_instance</document>
-        <document_key>948c3c341b30d01046b8c9951a4bcbfe</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-05-13 02:16:29</sys_created_on>
-        <sys_id>d48c3c341b30d01046b8c9951a4bcbff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:16:29</sys_updated_on>
-        <value>{{action.resource_group_name}}</value>
-        <variable display_value="">184090a81b9c905046b8c9951a4bcb34</variable>
-    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -4672,7 +4520,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">d88c3c341b30d01046b8c9951a4bcbe8</action_input>
         <action_inputs/>
-        <action_type display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
+        <action_type display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:16:29</sys_created_on>
         <sys_id>5c8c3c341b30d01046b8c9951a4bcbf2</sys_id>

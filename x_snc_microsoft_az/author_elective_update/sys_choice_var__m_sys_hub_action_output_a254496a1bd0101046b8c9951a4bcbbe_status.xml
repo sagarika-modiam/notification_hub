@@ -1,4 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="status" table="var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 16:48:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f54896a1bd0101046b8c9951a4bcb5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 16:48:49</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Status</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 16:48:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b54896a1bd0101046b8c9951a4bcb5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 16:48:49</sys_updated_on>
+            <value>Status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-23 16:48:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a354896a1bd0101046b8c9951a4bcb5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-23 16:48:49</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 11:02:57</sys_created_on>
+            <sys_id>807e0d4edb41d41026bbc16c1396192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 11:02:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</application>
+        <file_path/>
+        <instance_id>fc562a22db9d10904b5c50b6f4961999</instance_id>
+        <instance_name>empmpraveen</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe_status</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="status" table="var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -74,4 +157,42 @@
             <sys_updated_on>2020-05-29 11:02:57</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>871214847</payload_hash>
+        <record_name>.Status</record_name>
+        <reverted_from/>
+        <source>2e252d46dbe914106ad79e7aca961996</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 09:22:47</sys_created_on>
+        <sys_id>e047a5cadbe914106ad79e7aca9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e07cafaa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:22:47</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>6047a5caeee91410a92a2815979c36db</update_guid>
+        <update_guid_history>6047a5caeee91410a92a2815979c36db:0,2447a5ca8ee91410f3de5572c3a999d4:2075682773</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 12:41:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>e447a5cadbe914106ad79e7aca9619d8</sys_id>
+        <sys_metadata>e447a5cadbe914106ad79e7aca9619d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_scope_delete display_value="">4a240b7e0594452d98c2f5a587a48d21</sys_scope_delete>
+        <sys_update_name>sys_choice_var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe_status</sys_update_name>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_output_a254496a1bd0101046b8c9951a4bcbbe_status">e047a5cadbe914106ad79e7aca9619db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 12:41:58</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

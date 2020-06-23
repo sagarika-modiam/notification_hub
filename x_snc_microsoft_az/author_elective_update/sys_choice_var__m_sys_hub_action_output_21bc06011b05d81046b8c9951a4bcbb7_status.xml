@@ -63,13 +63,13 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-05-29 11:00:58</sys_created_on>
-            <sys_id>8bfd850edb41d41026bbc16c13961920</sys_id>
+            <sys_id>673765cadbe914106ad79e7aca9619f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>status</sys_name>
+            <sys_name/>
             <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
             <sys_policy/>
             <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-            <sys_update_name>sys_choice_var__m_sys_hub_action_output_21bc06011b05d81046b8c9951a4bcbb7_status</sys_update_name>
+            <sys_update_name/>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-05-29 11:00:58</sys_updated_on>
         </sys_choice_set>

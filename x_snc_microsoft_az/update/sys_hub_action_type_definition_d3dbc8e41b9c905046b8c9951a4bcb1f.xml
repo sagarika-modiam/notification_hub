@@ -9,13 +9,13 @@
         <category display_value="Namespace Management">5cc311701b70d01046b8c9951a4bcb74</category>
         <copied_from>5c2627bbdbd78010c53e57a0cf9619d2</copied_from>
         <copied_from_name>List Namespace</copied_from_name>
-        <description/>
+        <description>&lt;p id = "short_desc"&gt; Lists the available namespaces within a Resource Group.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Subscription ID&lt;/b&gt; - Unique ID of the subscription.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Resource Group Name&lt;/b&gt; - Name of the resource group.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Namespace List&lt;/b&gt; - Complex object containing these fields: - &lt;ul&gt;&lt;li&gt; valu - List of objects containing these values&lt;ul&gt;&lt;li&gt; kind &lt;/li&gt;&lt;li&gt; name &lt;/li&gt;&lt;li&gt; location &lt;/li&gt;&lt;li&gt; id &lt;/li&gt;&lt;li&gt; type &lt;/li&gt;&lt;li&gt; properties&lt;ul&gt;&lt;li&gt; createdAt &lt;/li&gt;&lt;li&gt; critical &lt;/li&gt;&lt;li&gt; metricId &lt;/li&gt;&lt;li&gt; serviceBusEndpoint &lt;/li&gt;&lt;li&gt; provisioningState &lt;/li&gt;&lt;li&gt; enabled &lt;/li&gt;&lt;li&gt; namespaceType &lt;/li&gt;&lt;li&gt; status &lt;/li&gt;&lt;li&gt; updatedAt &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Namespaces&lt;/b&gt; - List of Namespaces in JSON format.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Either Subscription ID or Resource Group or Namespace or Notification Hub or API Version entered is invalid or not found.&lt;/li&gt;&lt;li&gt;Either mismatch between properties or property values entered are invalid.&lt;/li&gt;&lt;li&gt;Requests beyond max requests that can be processed by available resources.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>list_namespace</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list}}","label":"step➛Post Processing &amp; Error Handling➛List","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].status}}","label":"step➛Post Processing &amp; Error Handling➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].error_message}}","label":"step➛Post Processing &amp; Error Handling➛error message","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value}}","label":"step➛Post Processing &amp; Error Handling➛List➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.id}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛id","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.type}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛type","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.location}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛location","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.kind}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛kind","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.sku}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛sku","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛sku➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.value.name_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛value➛name_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛metricId","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.serviceBusEndpoin}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛serviceBusEndpoin","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛enabled","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛critical","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.value}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.tags}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛tagg","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛tagg➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.tags.value}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛tagg➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.id}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛id","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.type}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛type","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.location}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛location","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.kind}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛kind","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.sku}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛sku","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛sku➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛metricId","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.serviceBusEndpoint}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛serviceBusEndpoint","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛enabled","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛critical","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list}}","label":"step➛Post Processing &amp; Error Handling➛namespace List","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.namespace_list_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛Namespace List_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.Value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛Value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.id}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛id","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child3}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.type}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛type","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child4}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.location}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛location","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child5}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.kind}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛kind","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child6}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.sku}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛sku","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛sku➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child7}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛metricId","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.serviceBusEndpoint}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛serviceBusEndpoint","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛enabled","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛critical","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.tag_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛tag_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.tag_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛tag_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.namespace_list_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛Namespace List_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.list_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛list_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.list_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛list_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛name","type":"step","ref":""},{"name":"{{step[c22b9f63-3c31-4755-b1e4-83c23d02a613].variable}}","label":"step➛Create JSON➛variable","type":"step","ref":""},{"name":"{{step[c22b9f63-3c31-4755-b1e4-83c23d02a613].namespaces}}","label":"step➛Create JSON➛Namespaces","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].resourcegroupname}}","label":"step➛Pre Validation➛resourcegroupname","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>13dd780a1b015c1046b8c9951a4bcb57</latest_snapshot>
+        <latest_snapshot>6ef346c2db6d14106ad79e7aca961971</latest_snapshot>
         <master_snapshot>2ab6fcfc1bfc901046b8c9951a4bcbbb</master_snapshot>
-        <name>List Namespace</name>
+        <name>Look up Namespace by Resource Group</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3dbc8e41b9c905046b8c9951a4bcb1f</sys_id>
-        <sys_mod_count>31</sys_mod_count>
-        <sys_name>List Namespace</sys_name>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Look up Namespace by Resource Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d3dbc8e41b9c905046b8c9951a4bcb1f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:50:36</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:28:22</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -91,7 +91,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=d3dbc8e41b9c905046b8c9951a4bcb1f^sys_idNOT IN73dbc8e41b9c905046b8c9951a4bcb74,84ebc8e41b9c905046b8c9951a4bcb8e,a3dbc8e41b9c905046b8c9951a4bcb3c,ebdbc8e41b9c905046b8c9951a4bcb5c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>c22b9f63-3c31-4755-b1e4-83c23d02a613</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -408,7 +408,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Namespaces</label>
+        <label>namespaces</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Create JSON">73dbc8e41b9c905046b8c9951a4bcb74</model>
@@ -434,14 +434,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:34:08</sys_created_on>
         <sys_id>7bdbc8e41b9c905046b8c9951a4bcb82</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:34:08</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -454,7 +454,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -764,7 +764,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing &amp; Error Handling">84ebc8e41b9c905046b8c9951a4bcb8e</model>
@@ -790,14 +790,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:34:09</sys_created_on>
         <sys_id>4cebc8e41b9c905046b8c9951a4bcbbf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:43:49</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -845,7 +845,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>namespace List</label>
+        <label>namespace_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing &amp; Error Handling">84ebc8e41b9c905046b8c9951a4bcb8e</model>
@@ -871,14 +871,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:34:09</sys_created_on>
         <sys_id>94ebc8e41b9c905046b8c9951a4bcbc5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:43:49</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -972,7 +972,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -1404,7 +1404,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1770,7 +1770,7 @@
         <label>Resource Group Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
+        <model display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
         <model_id>d3dbc8e41b9c905046b8c9951a4bcb1f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d3dbc8e41b9c905046b8c9951a4bcb1f</name>
@@ -1851,7 +1851,7 @@
         <label>Subscription ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
+        <model display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
         <model_id>d3dbc8e41b9c905046b8c9951a4bcb1f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_d3dbc8e41b9c905046b8c9951a4bcb1f</name>
@@ -1935,7 +1935,7 @@
         <label>Namespaces</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
+        <model display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
         <model_id>d3dbc8e41b9c905046b8c9951a4bcb1f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f</name>
@@ -2018,7 +2018,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
+        <model display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
         <model_id>d3dbc8e41b9c905046b8c9951a4bcb1f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f</name>
@@ -2101,7 +2101,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
+        <model display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
         <model_id>d3dbc8e41b9c905046b8c9951a4bcb1f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f</name>
@@ -2184,7 +2184,7 @@
         <label>Namespace List</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
+        <model display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</model>
         <model_id>d3dbc8e41b9c905046b8c9951a4bcb1f</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f</name>
@@ -2228,7 +2228,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=d3dbc8e41b9c905046b8c9951a4bcb1f^sys_idNOT IN73dbc8e41b9c905046b8c9951a4bcb74,84ebc8e41b9c905046b8c9951a4bcb8e,a3dbc8e41b9c905046b8c9951a4bcb3c,ebdbc8e41b9c905046b8c9951a4bcb5c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>c22b9f63-3c31-4755-b1e4-83c23d02a613</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2545,7 +2545,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Namespaces</label>
+        <label>namespaces</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Create JSON">73dbc8e41b9c905046b8c9951a4bcb74</model>
@@ -2571,14 +2571,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:34:08</sys_created_on>
         <sys_id>7bdbc8e41b9c905046b8c9951a4bcb82</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:34:08</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2591,7 +2591,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2901,7 +2901,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing &amp; Error Handling">84ebc8e41b9c905046b8c9951a4bcb8e</model>
@@ -2927,14 +2927,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:34:09</sys_created_on>
         <sys_id>4cebc8e41b9c905046b8c9951a4bcbbf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:43:49</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2982,7 +2982,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>namespace List</label>
+        <label>namespace_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing &amp; Error Handling">84ebc8e41b9c905046b8c9951a4bcb8e</model>
@@ -3008,14 +3008,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:34:09</sys_created_on>
         <sys_id>94ebc8e41b9c905046b8c9951a4bcbc5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:43:49</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3109,7 +3109,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3541,7 +3541,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
+        <action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -3881,11 +3881,11 @@
         <sys_created_on>2020-04-17 07:34:06</sys_created_on>
         <sys_id>27dbc8e41b9c905046b8c9951a4bcb34</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Subscription ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d3dbc8e41b9c905046b8c9951a4bcb1f_subscription_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:34:11</sys_updated_on>
         <url/>
@@ -3904,11 +3904,11 @@
         <sys_created_on>2020-04-17 07:34:06</sys_created_on>
         <sys_id>6fdbc8e41b9c905046b8c9951a4bcb39</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Resource Group Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d3dbc8e41b9c905046b8c9951a4bcb1f_resource_group_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:34:11</sys_updated_on>
         <url/>
@@ -3928,11 +3928,11 @@
         <sys_created_on>2020-04-17 07:34:11</sys_created_on>
         <sys_id>2cebc8e41b9c905046b8c9951a4bcbe5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace List</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f_variable_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:34:11</sys_updated_on>
         <url/>
@@ -3951,11 +3951,11 @@
         <sys_created_on>2020-04-17 07:34:10</sys_created_on>
         <sys_id>54ebc8e41b9c905046b8c9951a4bcbda</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:34:10</sys_updated_on>
         <url/>
@@ -3974,11 +3974,11 @@
         <sys_created_on>2020-04-17 07:34:11</sys_created_on>
         <sys_id>64ebc8e41b9c905046b8c9951a4bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespaces</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:34:11</sys_updated_on>
         <url/>
@@ -3997,11 +3997,11 @@
         <sys_created_on>2020-04-17 07:34:10</sys_created_on>
         <sys_id>ecebc8e41b9c905046b8c9951a4bcbdf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d3dbc8e41b9c905046b8c9951a4bcb1f_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:34:10</sys_updated_on>
         <url/>
@@ -4069,19 +4069,19 @@
     </sys_choice>
     <sys_hub_action_plan action="delete_multiple" query="action_id=d3dbc8e41b9c905046b8c9951a4bcb1f^sys_idNOT IN73b670301b30d01046b8c9951a4bcb26"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action_id>
+        <action_id display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"73b670301b30d01046b8c9951a4bcb26","name":"plan"}}</plan>
-        <snapshot>a81bb9811bc1d81046b8c9951a4bcbd4</snapshot>
+        <snapshot>6ef346c2db6d14106ad79e7aca961971</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73b670301b30d01046b8c9951a4bcb26</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:44:10</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:28:26</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -4092,22 +4092,22 @@
         <category display_value="Namespace Management">5cc311701b70d01046b8c9951a4bcb74</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p id = "short_desc"&gt; Lists the available namespaces within a Resource Group.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Subscription ID&lt;/b&gt; - Unique ID of the subscription.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Resource Group Name&lt;/b&gt; - Name of the resource group.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Namespace List&lt;/b&gt; - Complex object containing these fields: - &lt;ul&gt;&lt;li&gt; valu - List of objects containing these values&lt;ul&gt;&lt;li&gt; kind &lt;/li&gt;&lt;li&gt; name &lt;/li&gt;&lt;li&gt; location &lt;/li&gt;&lt;li&gt; id &lt;/li&gt;&lt;li&gt; type &lt;/li&gt;&lt;li&gt; properties&lt;ul&gt;&lt;li&gt; createdAt &lt;/li&gt;&lt;li&gt; critical &lt;/li&gt;&lt;li&gt; metricId &lt;/li&gt;&lt;li&gt; serviceBusEndpoint &lt;/li&gt;&lt;li&gt; provisioningState &lt;/li&gt;&lt;li&gt; enabled &lt;/li&gt;&lt;li&gt; namespaceType &lt;/li&gt;&lt;li&gt; status &lt;/li&gt;&lt;li&gt; updatedAt &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Namespaces&lt;/b&gt; - List of Namespaces in JSON format.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Either Subscription ID or Resource Group or Namespace or Notification Hub or API Version entered is invalid or not found.&lt;/li&gt;&lt;li&gt;Either mismatch between properties or property values entered are invalid.&lt;/li&gt;&lt;li&gt;Requests beyond max requests that can be processed by available resources.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
         <internal_name>list_namespace</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list}}","label":"step➛Post Processing &amp; Error Handling➛List","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].status}}","label":"step➛Post Processing &amp; Error Handling➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].error_message}}","label":"step➛Post Processing &amp; Error Handling➛error message","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value}}","label":"step➛Post Processing &amp; Error Handling➛List➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.id}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛id","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.type}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛type","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.location}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛location","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.kind}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛kind","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.sku}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛sku","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛sku➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.value_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛value_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.value.name_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛value➛name_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛metricId","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.serviceBusEndpoin}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛serviceBusEndpoin","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛enabled","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛critical","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.value}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.tags}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛tagg","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛tagg➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.value.tags.tags.value}}","label":"step➛Post Processing &amp; Error Handling➛List➛value➛tags➛tagg➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.id}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛id","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.type}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛type","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.location}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛location","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.kind}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛kind","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.sku}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛sku","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛sku➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.namespaces_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛Namespaces_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛metricId","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.serviceBusEndpoint}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛serviceBusEndpoint","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛enabled","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛critical","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list.Namespaces.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛List➛Namespaces➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list}}","label":"step➛Post Processing &amp; Error Handling➛namespace List","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.namespace_list_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛Namespace List_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.Value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛Value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.id}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛id","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child3}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.type}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛type","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child4}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.location}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛location","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child5}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.kind}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛kind","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child6}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.sku}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛sku","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛sku➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.list_of_namespaces_child7}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛list of namespaces_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛metricId","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.serviceBusEndpoint}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛serviceBusEndpoint","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛enabled","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛critical","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.tag_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛tag_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.tag_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛tag_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tag.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tag➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.namespace_list_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛Namespace List_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.list_child1}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛list_child1","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛name","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.list_child2}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛list_child2","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.tags.list.value}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛tags➛list➛value","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].namespace_list.value.list_of_namespaces.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛namespace List➛value➛list of namespaces➛tags➛name","type":"step","ref":""},{"name":"{{step[c22b9f63-3c31-4755-b1e4-83c23d02a613].variable}}","label":"step➛Create JSON➛variable","type":"step","ref":""},{"name":"{{step[c22b9f63-3c31-4755-b1e4-83c23d02a613].namespaces}}","label":"step➛Create JSON➛Namespaces","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].resourcegroupname}}","label":"step➛Pre Validation➛resourcegroupname","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>List Namespace</name>
+        <name>Look up Namespace by Resource Group</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</parent_action>
+        <parent_action display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2ab6fcfc1bfc901046b8c9951a4bcbbb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -4115,7 +4115,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:44:05</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:28:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -4172,7 +4172,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=2ab6fcfc1bfc901046b8c9951a4bcbbb^sys_idNOT IN22b6fcfc1bfc901046b8c9951a4bcbca,6ab6fcfc1bfc901046b8c9951a4bcbde,e2b6fcfc1bfc901046b8c9951a4bcbf6,f2b630301b30d01046b8c9951a4bcb11"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4604,7 +4604,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4931,7 +4931,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>c22b9f63-3c31-4755-b1e4-83c23d02a613</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5248,7 +5248,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Namespaces</label>
+        <label>namespaces</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Create JSON">e2b6fcfc1bfc901046b8c9951a4bcbf6</model>
@@ -5274,14 +5274,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:15</sys_created_on>
         <sys_id>f2b630301b30d01046b8c9951a4bcb05</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 01:51:15</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5294,7 +5294,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5685,7 +5685,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing &amp; Error Handling">f2b630301b30d01046b8c9951a4bcb11</model>
@@ -5711,14 +5711,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>b6b630301b30d01046b8c9951a4bcb2a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:44:06</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5734,7 +5734,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD90edb80a61015c109d4d0300f1d2a87e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=21461a8d-bf79-4297-acc9-878a2c189fd2</attributes>
+        <attributes>co_type_name=FD3ff386c2026d14107fe9136da77ea28a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=21461a8d-bf79-4297-acc9-878a2c189fd2</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5766,7 +5766,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>namespace List</label>
+        <label>namespace_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing &amp; Error Handling">f2b630301b30d01046b8c9951a4bcb11</model>
@@ -5792,14 +5792,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>f2b630301b30d01046b8c9951a4bcb30</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:50:36</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:28:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5851,7 +5851,7 @@
         <label>Subscription ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
+        <model display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
         <model_id>2ab6fcfc1bfc901046b8c9951a4bcbbb</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_2ab6fcfc1bfc901046b8c9951a4bcbbb</name>
@@ -5932,7 +5932,7 @@
         <label>Resource Group Name</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
+        <model display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
         <model_id>2ab6fcfc1bfc901046b8c9951a4bcbbb</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_2ab6fcfc1bfc901046b8c9951a4bcbbb</name>
@@ -6016,7 +6016,7 @@
         <label>Namespaces</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
+        <model display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
         <model_id>2ab6fcfc1bfc901046b8c9951a4bcbbb</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb</name>
@@ -6099,7 +6099,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
+        <model display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
         <model_id>2ab6fcfc1bfc901046b8c9951a4bcbbb</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb</name>
@@ -6182,7 +6182,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
+        <model display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
         <model_id>2ab6fcfc1bfc901046b8c9951a4bcbbb</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb</name>
@@ -6228,7 +6228,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD90edb80a04015c1054183714a9c0df8e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=dd8cdda7-ec05-4a2e-8dc7-83135faf4556,sourceType=step,sourceUiUniqueId=21461a8d-bf79-4297-acc9-878a2c189fd2,uiType=object,uiTypeLabel=Object,uiUniqueId=211b8628-41ea-4223-8309-2f0536ca8a8a</attributes>
+        <attributes>co_type_name=FD0c0486c2ee6d1410064d02e49df0c6a6,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=dd8cdda7-ec05-4a2e-8dc7-83135faf4556,sourceType=step,sourceUiUniqueId=21461a8d-bf79-4297-acc9-878a2c189fd2,uiType=object,uiTypeLabel=Object,uiUniqueId=211b8628-41ea-4223-8309-2f0536ca8a8a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6265,7 +6265,7 @@
         <label>Namespace List</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
+        <model display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</model>
         <model_id>2ab6fcfc1bfc901046b8c9951a4bcbbb</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb</name>
@@ -6288,14 +6288,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>cbb630301b30d01046b8c9951a4bcb4c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:50:36</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:28:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6309,7 +6309,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=2ab6fcfc1bfc901046b8c9951a4bcbbb^sys_idNOT IN22b6fcfc1bfc901046b8c9951a4bcbca,6ab6fcfc1bfc901046b8c9951a4bcbde,e2b6fcfc1bfc901046b8c9951a4bcbf6,f2b630301b30d01046b8c9951a4bcb11"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -6741,7 +6741,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -7068,7 +7068,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>c22b9f63-3c31-4755-b1e4-83c23d02a613</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -7385,7 +7385,7 @@
         <help/>
         <hint/>
         <internal_type display_value="JSON">json</internal_type>
-        <label>Namespaces</label>
+        <label>namespaces</label>
         <mandatory>true</mandatory>
         <max_length>4000</max_length>
         <model display_value="Create JSON">e2b6fcfc1bfc901046b8c9951a4bcbf6</model>
@@ -7411,14 +7411,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:15</sys_created_on>
         <sys_id>f2b630301b30d01046b8c9951a4bcb05</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 01:51:15</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7431,7 +7431,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="List Namespace">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
+        <action display_value="Look up Namespace by Resource Group">2ab6fcfc1bfc901046b8c9951a4bcbbb</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -7822,7 +7822,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing &amp; Error Handling">f2b630301b30d01046b8c9951a4bcb11</model>
@@ -7848,14 +7848,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>b6b630301b30d01046b8c9951a4bcb2a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:44:06</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:07:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7871,7 +7871,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD90edb80a61015c109d4d0300f1d2a87e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=21461a8d-bf79-4297-acc9-878a2c189fd2</attributes>
+        <attributes>co_type_name=FD3ff386c2026d14107fe9136da77ea28a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=21461a8d-bf79-4297-acc9-878a2c189fd2</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7903,7 +7903,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>namespace List</label>
+        <label>namespace_list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing &amp; Error Handling">f2b630301b30d01046b8c9951a4bcb11</model>
@@ -7929,14 +7929,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>f2b630301b30d01046b8c9951a4bcb30</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:50:36</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:28:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7962,11 +7962,11 @@
         <sys_created_on>2020-05-13 01:51:14</sys_created_on>
         <sys_id>aab6fcfc1bfc901046b8c9951a4bcbc1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Subscription ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2ab6fcfc1bfc901046b8c9951a4bcbbb_subscription_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 01:51:14</sys_updated_on>
         <url/>
@@ -7985,11 +7985,11 @@
         <sys_created_on>2020-05-13 01:51:14</sys_created_on>
         <sys_id>e6b6fcfc1bfc901046b8c9951a4bcbc7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Resource Group Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2ab6fcfc1bfc901046b8c9951a4bcbbb_resource_group_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 01:51:14</sys_updated_on>
         <url/>
@@ -8009,11 +8009,11 @@
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>07b630301b30d01046b8c9951a4bcb51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace List</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb_variable_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 01:51:16</sys_updated_on>
         <url/>
@@ -8032,11 +8032,11 @@
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>43b630301b30d01046b8c9951a4bcb57</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespaces</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb_output_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 01:51:16</sys_updated_on>
         <url/>
@@ -8055,11 +8055,11 @@
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>76b630301b30d01046b8c9951a4bcb45</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 01:51:16</sys_updated_on>
         <url/>
@@ -8078,11 +8078,11 @@
         <sys_created_on>2020-05-13 01:51:16</sys_created_on>
         <sys_id>c3b630301b30d01046b8c9951a4bcb4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2ab6fcfc1bfc901046b8c9951a4bcbbb_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 01:51:16</sys_updated_on>
         <url/>

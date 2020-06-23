@@ -6,14 +6,14 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Notification Hub Management">3fdb5ec31b84105046b8c9951a4bcbe9</category>
+        <category display_value="Registration Management">752275c2db2d14106ad79e7aca9619ca</category>
         <copied_from>e2aa43a11b68941061661f46bc4bcb2f</copied_from>
         <copied_from_name>Create APNS Registration</copied_from_name>
-        <description/>
+        <description>&lt;p id = "short_desc"&gt; Updates an existing APNS registration.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Namespace&lt;/b&gt; - Name of the  namespace.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Notification Hub&lt;/b&gt; - Name of the notification hub.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Registration ID&lt;/b&gt; - Unique ID of the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ETag&lt;/b&gt; - Etag as returned by previous creation, update, and retrieval.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Tags&lt;/b&gt; - Tags for the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Apple Registration Description&lt;/b&gt; - Description of the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Body Template&lt;/b&gt; - Body template of the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Device Token&lt;/b&gt; - Token of the registered device.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Expiry&lt;/b&gt; - Expiry date of the token.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ETag&lt;/b&gt; - ETag as returned by current update.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Invalid request body. The settings couldn't be read because the request was malformed (or the validation failed).&lt;/li&gt;&lt;li&gt;Authorization failure. The access key was incorrect.&lt;/li&gt;&lt;li&gt;Quota exceeded.&lt;/li&gt;&lt;li&gt;Namespace or Notification Hub or ID Not found.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
         <ih_action>true</ih_action>
         <internal_name>update__apns_registration</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Apple Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.device_toke}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.expiry}}","label":"action➛Expiry","type":"action","ref":""},{"name":"{{action.etag}}","label":"action➛ETag","type":"action","ref":""},{"name":"{{action.registration_id}}","label":"action➛Registration ID","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛eTag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].variable}}","label":"step➛Pre Validation ➛variable","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].namespace}}","label":"step➛Pre Validation ➛namespace","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].notificaitonhub}}","label":"step➛Pre Validation ➛notificaitonhub","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].etag}}","label":"step➛Pre Validation ➛etag","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].registration}}","label":"step➛Pre Validation ➛registration","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>9131cdca1b015c1046b8c9951a4bcb88</latest_snapshot>
+        <latest_snapshot>edd64686db6d14106ad79e7aca961905</latest_snapshot>
         <master_snapshot>82e74e0d1bc1d81046b8c9951a4bcb86</master_snapshot>
         <name>Update  APNS Registration</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>941b1fa91b68941061661f46bc4bcbaf</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Update  APNS Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_941b1fa91b68941061661f46bc4bcbaf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 10:05:15</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:40:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -684,7 +684,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="XML">xml</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Pre Processing">141b1fa91b68941061661f46bc4bcbde</model>
@@ -710,14 +710,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 11:29:02</sys_created_on>
         <sys_id>e41b1fa91b68941061661f46bc4bcbfe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 11:29:02</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2134,7 +2134,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>eTag</label>
+        <label>etag</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">f01b5fa91b68941061661f46bc4bcb23</model>
@@ -2160,14 +2160,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 11:29:03</sys_created_on>
         <sys_id>341b5fa91b68941061661f46bc4bcb40</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:39:53</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2296,7 +2296,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">f01b5fa91b68941061661f46bc4bcb23</model>
@@ -2322,14 +2322,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 11:29:03</sys_created_on>
         <sys_id>f41b5fa91b68941061661f46bc4bcb3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:39:53</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3928,7 +3928,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="XML">xml</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Pre Processing">141b1fa91b68941061661f46bc4bcbde</model>
@@ -3954,14 +3954,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 11:29:02</sys_created_on>
         <sys_id>e41b1fa91b68941061661f46bc4bcbfe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 11:29:02</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5378,7 +5378,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>eTag</label>
+        <label>etag</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">f01b5fa91b68941061661f46bc4bcb23</model>
@@ -5404,14 +5404,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 11:29:03</sys_created_on>
         <sys_id>341b5fa91b68941061661f46bc4bcb40</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:39:53</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5540,7 +5540,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">f01b5fa91b68941061661f46bc4bcb23</model>
@@ -5566,14 +5566,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 11:29:03</sys_created_on>
         <sys_id>f41b5fa91b68941061661f46bc4bcb3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:39:53</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5599,11 +5599,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:01</sys_created_on>
         <sys_id>101b1fa91b68941061661f46bc4bcbd5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Device Token</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_device_toke_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:01</sys_updated_on>
         <url/>
@@ -5622,11 +5622,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:01</sys_created_on>
         <sys_id>1c1b1fa91b68941061661f46bc4bcbbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Notification Hub</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_notification_hub_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:01</sys_updated_on>
         <url/>
@@ -5645,11 +5645,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:01</sys_created_on>
         <sys_id>581b1fa91b68941061661f46bc4bcbc3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Tags</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_tags_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:01</sys_updated_on>
         <url/>
@@ -5668,11 +5668,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:01</sys_created_on>
         <sys_id>5c1b1fa91b68941061661f46bc4bcbda</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Expiry</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_expiry_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:01</sys_updated_on>
         <url/>
@@ -5691,11 +5691,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:30:23</sys_created_on>
         <sys_id>6c6b13e91b68941061661f46bc4bcbe6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ETag</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_etag_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:30:23</sys_updated_on>
         <url/>
@@ -5714,11 +5714,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:01</sys_created_on>
         <sys_id>941b1fa91b68941061661f46bc4bcbc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Apple Registration Description</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_description_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:01</sys_updated_on>
         <url/>
@@ -5737,11 +5737,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 13:11:31</sys_created_on>
         <sys_id>b1823be51ba8941061661f46bc4bcb03</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Registration ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_registration_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 13:11:31</sys_updated_on>
         <url/>
@@ -5760,11 +5760,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:01</sys_created_on>
         <sys_id>d01b1fa91b68941061661f46bc4bcbcf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Body Template</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_body_template_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:01</sys_updated_on>
         <url/>
@@ -5783,11 +5783,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:00</sys_created_on>
         <sys_id>dc1b1fa91b68941061661f46bc4bcbb7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_941b1fa91b68941061661f46bc4bcbaf_namespace_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:00</sys_updated_on>
         <url/>
@@ -5807,11 +5807,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:03</sys_created_on>
         <sys_id>011b5fa91b68941061661f46bc4bcb5f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ETag</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_941b1fa91b68941061661f46bc4bcbaf_etag_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:03</sys_updated_on>
         <url/>
@@ -5830,11 +5830,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:03</sys_created_on>
         <sys_id>341b5fa91b68941061661f46bc4bcb53</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_941b1fa91b68941061661f46bc4bcbaf_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:03</sys_updated_on>
         <url/>
@@ -5853,11 +5853,11 @@ outputs.payload =
         <sys_created_on>2020-05-03 11:29:03</sys_created_on>
         <sys_id>811b5fa91b68941061661f46bc4bcb59</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_941b1fa91b68941061661f46bc4bcbaf_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-03 11:29:03</sys_updated_on>
         <url/>
@@ -5927,17 +5927,17 @@ outputs.payload =
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Update  APNS Registration">941b1fa91b68941061661f46bc4bcbaf</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9cf7ce0d1bc1d81046b8c9951a4bcba6","name":"plan"}}</plan>
-        <snapshot>89e70e0d1bc1d81046b8c9951a4bcb71</snapshot>
+        <snapshot>edd64686db6d14106ad79e7aca961905</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9cf7ce0d1bc1d81046b8c9951a4bcba6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:16</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:40:59</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5945,10 +5945,10 @@ outputs.payload =
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="Notification Hub Management">3fdb5ec31b84105046b8c9951a4bcbe9</category>
+        <category display_value="Registration Management">752275c2db2d14106ad79e7aca9619ca</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p id = "short_desc"&gt; Updates an existing APNS registration.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Namespace&lt;/b&gt; - Name of the  namespace.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Notification Hub&lt;/b&gt; - Name of the notification hub.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Registration ID&lt;/b&gt; - Unique ID of the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ETag&lt;/b&gt; - Etag as returned by previous creation, update, and retrieval.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Tags&lt;/b&gt; - Tags for the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Apple Registration Description&lt;/b&gt; - Description of the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Body Template&lt;/b&gt; - Body template of the registration.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Device Token&lt;/b&gt; - Token of the registered device.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Expiry&lt;/b&gt; - Expiry date of the token.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ETag&lt;/b&gt; - ETag as returned by current update.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Invalid request body. The settings couldn't be read because the request was malformed (or the validation failed).&lt;/li&gt;&lt;li&gt;Authorization failure. The access key was incorrect.&lt;/li&gt;&lt;li&gt;Quota exceeded.&lt;/li&gt;&lt;li&gt;Namespace or Notification Hub or ID Not found.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
         <internal_name>update__apns_registration</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Apple Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.device_toke}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.expiry}}","label":"action➛Expiry","type":"action","ref":""},{"name":"{{action.etag}}","label":"action➛ETag","type":"action","ref":""},{"name":"{{action.registration_id}}","label":"action➛Registration ID","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛eTag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].variable}}","label":"step➛Pre Validation ➛variable","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].namespace}}","label":"step➛Pre Validation ➛namespace","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].notificaitonhub}}","label":"step➛Pre Validation ➛notificaitonhub","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].etag}}","label":"step➛Pre Validation ➛etag","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].registration}}","label":"step➛Pre Validation ➛registration","type":"step","ref":""}]</label_cache>
         <master>true</master>
@@ -5963,7 +5963,7 @@ outputs.payload =
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>82e74e0d1bc1d81046b8c9951a4bcb86</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -5971,7 +5971,7 @@ outputs.payload =
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:06</sys_updated_on>
+        <sys_updated_on>2020-06-23 11:40:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -6621,7 +6621,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="XML">xml</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Pre Processing">26e78e0d1bc1d81046b8c9951a4bcb06</model>
@@ -6647,14 +6647,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:09</sys_created_on>
         <sys_id>eee78e0d1bc1d81046b8c9951a4bcb26</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:09</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7059,7 +7059,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>eTag</label>
+        <label>etag</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">36e78e0d1bc1d81046b8c9951a4bcb71</model>
@@ -7085,14 +7085,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:10</sys_created_on>
         <sys_id>7ee78e0d1bc1d81046b8c9951a4bcb8e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:10</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7140,7 +7140,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">36e78e0d1bc1d81046b8c9951a4bcb71</model>
@@ -7166,14 +7166,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:10</sys_created_on>
         <sys_id>bee78e0d1bc1d81046b8c9951a4bcb88</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:10</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9865,7 +9865,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="XML">xml</internal_type>
-        <label>Payload</label>
+        <label>payload</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Pre Processing">26e78e0d1bc1d81046b8c9951a4bcb06</model>
@@ -9891,14 +9891,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:09</sys_created_on>
         <sys_id>eee78e0d1bc1d81046b8c9951a4bcb26</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:09</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -10303,7 +10303,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>eTag</label>
+        <label>etag</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">36e78e0d1bc1d81046b8c9951a4bcb71</model>
@@ -10329,14 +10329,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:10</sys_created_on>
         <sys_id>7ee78e0d1bc1d81046b8c9951a4bcb8e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:10</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -10384,7 +10384,7 @@ outputs.payload =
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">36e78e0d1bc1d81046b8c9951a4bcb71</model>
@@ -10410,14 +10410,14 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:10</sys_created_on>
         <sys_id>bee78e0d1bc1d81046b8c9951a4bcb88</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:40:10</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:18:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -11536,11 +11536,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:06</sys_created_on>
         <sys_id>02e74e0d1bc1d81046b8c9951a4bcba4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Tags</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_tags_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:06</sys_updated_on>
         <url/>
@@ -11559,11 +11559,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:06</sys_created_on>
         <sys_id>06e74e0d1bc1d81046b8c9951a4bcb8c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_namespace_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:06</sys_updated_on>
         <url/>
@@ -11582,11 +11582,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:07</sys_created_on>
         <sys_id>16e74e0d1bc1d81046b8c9951a4bcbc2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Device Token</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_device_toke_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:07</sys_updated_on>
         <url/>
@@ -11605,11 +11605,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:06</sys_created_on>
         <sys_id>42e74e0d1bc1d81046b8c9951a4bcb9e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ETag</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_etag_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:06</sys_updated_on>
         <url/>
@@ -11628,11 +11628,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:07</sys_created_on>
         <sys_id>46e74e0d1bc1d81046b8c9951a4bcbbc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Body Template</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_body_template_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:07</sys_updated_on>
         <url/>
@@ -11651,11 +11651,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:06</sys_created_on>
         <sys_id>82e74e0d1bc1d81046b8c9951a4bcb98</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Registration ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_registration_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:06</sys_updated_on>
         <url/>
@@ -11674,11 +11674,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:06</sys_created_on>
         <sys_id>c2e74e0d1bc1d81046b8c9951a4bcb92</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Notification Hub</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_notification_hub_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:06</sys_updated_on>
         <url/>
@@ -11697,11 +11697,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:06</sys_created_on>
         <sys_id>cee74e0d1bc1d81046b8c9951a4bcba9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Apple Registration Description</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_description_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:06</sys_updated_on>
         <url/>
@@ -11720,11 +11720,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:07</sys_created_on>
         <sys_id>d2e74e0d1bc1d81046b8c9951a4bcbc8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Expiry</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_82e74e0d1bc1d81046b8c9951a4bcb86_expiry_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:07</sys_updated_on>
         <url/>
@@ -11744,11 +11744,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:10</sys_created_on>
         <sys_id>03e78e0d1bc1d81046b8c9951a4bcba2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_82e74e0d1bc1d81046b8c9951a4bcb86_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:10</sys_updated_on>
         <url/>
@@ -11767,11 +11767,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:10</sys_created_on>
         <sys_id>03e78e0d1bc1d81046b8c9951a4bcba8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_82e74e0d1bc1d81046b8c9951a4bcb86_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:10</sys_updated_on>
         <url/>
@@ -11790,11 +11790,11 @@ outputs.payload =
         <sys_created_on>2020-05-26 12:40:11</sys_created_on>
         <sys_id>03e78e0d1bc1d81046b8c9951a4bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>ETag</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_82e74e0d1bc1d81046b8c9951a4bcb86_etag_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-26 12:40:11</sys_updated_on>
         <url/>

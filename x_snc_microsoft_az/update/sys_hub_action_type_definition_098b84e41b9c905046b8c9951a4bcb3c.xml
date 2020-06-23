@@ -9,8 +9,8 @@
         <category display_value="Namespace Management">5cc311701b70d01046b8c9951a4bcb74</category>
         <copied_from>67a5ef7bdbd78010c53e57a0cf961909</copied_from>
         <copied_from_name>Get Namespace</copied_from_name>
-        <description/>
-        <ih_action>true</ih_action>
+        <description>&lt;p id = "short_desc"&gt; Returns the description for the specified namespace.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Subscription ID&lt;/b&gt; - Unique ID of the subscription.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Resource Group Name&lt;/b&gt; - Name of the resource group.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Namespace&lt;/b&gt; - Name of the namespace.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Namespace&lt;/b&gt; - Complex object containing these fields: - &lt;ul&gt;&lt;li&gt; kind &lt;/li&gt;&lt;li&gt; name &lt;/li&gt;&lt;li&gt; location &lt;/li&gt;&lt;li&gt; id &lt;/li&gt;&lt;li&gt; properties&lt;ul&gt;&lt;li&gt; createdAt &lt;/li&gt;&lt;li&gt; critical &lt;/li&gt;&lt;li&gt; metricId &lt;/li&gt;&lt;li&gt; serviceBusEndpoint &lt;/li&gt;&lt;li&gt; provisioningState &lt;/li&gt;&lt;li&gt; enabled &lt;/li&gt;&lt;li&gt; namespaceType &lt;/li&gt;&lt;li&gt; status &lt;/li&gt;&lt;li&gt; updatedAt &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt; tags&lt;ul&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Either Subscription ID or Resource Group or Namespace or Notification Hub or API Version entered is invalid or not found.&lt;/li&gt;&lt;li&gt;Either mismatch between properties or property values entered are invalid.&lt;/li&gt;&lt;li&gt;Requests beyond max requests that can be processed by available resources.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
+        <ih_action>false</ih_action>
         <internal_name>get_namespace</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].status}}","label":"step➛Post Processing &amp; Error Handling➛status","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].error_message}}","label":"step➛Post Processing &amp; Error Handling➛error message","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].namespace}}","label":"step➛Post Processing &amp; Error Handling➛Namespace","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list}}","label":"step➛Post Processing &amp; Error Handling➛List","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child1","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list._}}","label":"step➛Post Processing &amp; Error Handling➛List","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.id}}","label":"step➛Post Processing &amp; Error Handling➛List➛id","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child2","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛name","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child3","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.location}}","label":"step➛Post Processing &amp; Error Handling➛List➛location","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child4","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.kind}}","label":"step➛Post Processing &amp; Error Handling➛List➛kind","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child5","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.sku}}","label":"step➛Post Processing &amp; Error Handling➛List➛sku","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛sku➛name","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child6","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.tags}}","label":"step➛Post Processing &amp; Error Handling➛List➛tags","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛tags➛name","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child7","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛metricId","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛status","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛status","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.serviceBusEndpoint}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛serviceBusEndpoint","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛enabled","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛critical","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].resourcegroupname}}","label":"step➛Pre Validation➛resourcegroupname","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].namespace}}","label":"step➛Pre Validation➛namespace","type":"step","ref":""}]</label_cache>
         <latest_snapshot>fa8db00a1b015c1046b8c9951a4bcbd0</latest_snapshot>
@@ -19,14 +19,14 @@
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:32:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>098b84e41b9c905046b8c9951a4bcb3c</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Get Namespace</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_098b84e41b9c905046b8c9951a4bcb3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:49:12</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:42:33</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -389,7 +389,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>List</label>
+        <label>list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing &amp; Error Handling">258b84e41b9c905046b8c9951a4bcbad</model>
@@ -415,14 +415,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:32:37</sys_created_on>
         <sys_id>358b84e41b9c905046b8c9951a4bcbd8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:32:39</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:42:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -551,7 +551,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing &amp; Error Handling">258b84e41b9c905046b8c9951a4bcbad</model>
@@ -577,14 +577,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:32:37</sys_created_on>
         <sys_id>e98b84e41b9c905046b8c9951a4bcbd2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:39:52</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:42:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1701,9 +1701,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:10</sys_created_on>
         <sys_id>7fa9f0b01b30d01046b8c9951a4bcb87</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:49:02</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:42:31</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7fa9f0b01b30d01046b8c9951a4bcb87"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1805,13 +1805,13 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">f3a9f0b01b30d01046b8c9951a4bcb92</action_input>
         <action_inputs/>
-        <action_type display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
+        <action_type display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:10</sys_created_on>
         <sys_id>8cb9f0b01b30d01046b8c9951a4bcb98</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:49:02</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:42:31</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8cb9f0b01b30d01046b8c9951a4bcb98"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2404,7 +2404,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>List</label>
+        <label>list</label>
         <mandatory>true</mandatory>
         <max_length>65000</max_length>
         <model display_value="Post Processing &amp; Error Handling">258b84e41b9c905046b8c9951a4bcbad</model>
@@ -2430,14 +2430,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:32:37</sys_created_on>
         <sys_id>358b84e41b9c905046b8c9951a4bcbd8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:32:39</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:42:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2566,7 +2566,7 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>error message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Post Processing &amp; Error Handling">258b84e41b9c905046b8c9951a4bcbad</model>
@@ -2592,14 +2592,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:32:37</sys_created_on>
         <sys_id>e98b84e41b9c905046b8c9951a4bcbd2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:39:52</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:42:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3559,11 +3559,11 @@
         <sys_created_on>2020-04-17 07:32:35</sys_created_on>
         <sys_id>058b84e41b9c905046b8c9951a4bcb46</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Subscription ID</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_098b84e41b9c905046b8c9951a4bcb3c_subscription_id_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:32:38</sys_updated_on>
         <url/>
@@ -3582,11 +3582,11 @@
         <sys_created_on>2020-05-13 02:04:10</sys_created_on>
         <sys_id>b7a9f0b01b30d01046b8c9951a4bcb86</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Resource Group Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_098b84e41b9c905046b8c9951a4bcb3c_resource_group_name_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 02:04:10</sys_updated_on>
         <url/>
@@ -3605,11 +3605,11 @@
         <sys_created_on>2020-05-13 02:04:10</sys_created_on>
         <sys_id>c4b9f0b01b30d01046b8c9951a4bcb97</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_098b84e41b9c905046b8c9951a4bcb3c_namespace_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-13 02:04:10</sys_updated_on>
         <url/>
@@ -3672,11 +3672,11 @@
         <sys_created_on>2020-04-17 07:32:38</sys_created_on>
         <sys_id>358b84e41b9c905046b8c9951a4bcbf3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_098b84e41b9c905046b8c9951a4bcb3c_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:32:38</sys_updated_on>
         <url/>
@@ -3695,11 +3695,11 @@
         <sys_created_on>2020-04-17 07:32:38</sys_created_on>
         <sys_id>718b84e41b9c905046b8c9951a4bcbf9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_098b84e41b9c905046b8c9951a4bcb3c_namespace_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:32:38</sys_updated_on>
         <url/>
@@ -3718,11 +3718,11 @@
         <sys_created_on>2020-04-17 07:32:38</sys_created_on>
         <sys_id>b98b84e41b9c905046b8c9951a4bcbed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_098b84e41b9c905046b8c9951a4bcb3c_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-17 07:32:38</sys_updated_on>
         <url/>
@@ -5418,7 +5418,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">72b974b01b30d01046b8c9951a4bcbcd</action_input>
         <action_inputs/>
-        <action_type display_value="List Namespace">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
+        <action_type display_value="Look up Namespace by Resource Group">d3dbc8e41b9c905046b8c9951a4bcb1f</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:22</sys_created_on>
         <sys_id>7ab974b01b30d01046b8c9951a4bcbd3</sys_id>

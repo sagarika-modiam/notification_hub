@@ -9,32 +9,32 @@
         <category display_value="Notification Hub Management">3fdb5ec31b84105046b8c9951a4bcbe9</category>
         <copied_from>b43f1eb11b20d41061661f46bc4bcb9b</copied_from>
         <copied_from_name>Send APNS Native Notification</copied_from_name>
-        <description/>
-        <ih_action>false</ih_action>
+        <description>&lt;p id = "short_desc"&gt; Sends a notification directly to a device handle (a valid token as expressed by the Notification type). Users of this API do not need to use Registrations or Installations.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Namespace&lt;/b&gt; - Name of the  namespace.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Notification Hub&lt;/b&gt; - Name of the notification hub.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message Body&lt;/b&gt; - Notification message to be pushed on registered device.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Invalid request body. The settings couldn't be read because the request was malformed (or the validation failed).&lt;/li&gt;&lt;li&gt;Authorization failure. The access key was incorrect.&lt;/li&gt;&lt;li&gt;Quota exceeded.&lt;/li&gt;&lt;li&gt;Namespace or Notification Hub or ID Not found.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
+        <ih_action>true</ih_action>
         <internal_name>direct_send</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Channenl URI","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Window Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.registration_id}}","label":"action➛Registration ID","type":"action","ref":""},{"name":"{{action.etag}}","label":"action➛ETag","type":"action","ref":""},{"name":"{{action.message_body}}","label":"action➛Message Body","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛Status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛Error Message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛ETag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].variable}}","label":"step➛Pre  Validation &amp; Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].apns_time}}","label":"step➛Pre  Validation &amp; Pre Processing➛APNS Time","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].new_time}}","label":"step➛Pre  Validation &amp; Pre Processing➛New Time","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].namespace}}","label":"step➛Pre  Validation &amp; Pre Processing➛namespace","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b]._}}","label":"step➛Pre  Validation &amp; Pre Processing➛","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].notificationhub}}","label":"step➛Pre  Validation &amp; Pre Processing➛notificationhub","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>2c8b7c461b015c1046b8c9951a4bcbca</latest_snapshot>
+        <latest_snapshot>6d19fdcadb2d14106ad79e7aca96196e</latest_snapshot>
         <master_snapshot>c98bbc461b015c1046b8c9951a4bcb81</master_snapshot>
-        <name>Direct Send</name>
+        <name> Send Notification to Device Handle </name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:37:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0fa6a791b20d41061661f46bc4bcb99</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Direct Send</sys_name>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name> Send Notification to Device Handle </sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a0fa6a791b20d41061661f46bc4bcb99</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 10:43:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:45</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -67,7 +67,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=a0fa6a791b20d41061661f46bc4bcb99^sys_idNOT IN20fa6a791b20d41061661f46bc4bcbbb,30fa6a791b20d41061661f46bc4bcbf1,70fa6a791b20d41061661f46bc4bcbda"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</action>
+        <action display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</action>
         <cid>db0cccb5-e332-4eb0-aa53-2a46c0967e6b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -542,7 +542,7 @@ gtime1.setValue("00:00:20");
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>New Time</label>
+        <label>new_time</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre  Validation &amp; Pre Processing">20fa6a791b20d41061661f46bc4bcbbb</model>
@@ -568,14 +568,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:37:16</sys_created_on>
         <sys_id>bcfa6a791b20d41061661f46bc4bcbce</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:04</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:39:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -588,7 +588,7 @@ gtime1.setValue("00:00:20");
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</action>
+        <action display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</action>
         <cid>9dabc4b7-b288-45d6-ad36-6800dcc0c242</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -802,7 +802,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">30fa6a791b20d41061661f46bc4bcbf1</model>
@@ -828,14 +828,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:37:17</sys_created_on>
         <sys_id>01faaa791b20d41061661f46bc4bcb0e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-04 02:37:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:39:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -883,7 +883,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Error Handling">30fa6a791b20d41061661f46bc4bcbf1</model>
@@ -909,14 +909,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:37:16</sys_created_on>
         <sys_id>05faaa791b20d41061661f46bc4bcb06</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-04 02:37:16</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:39:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -929,7 +929,7 @@ if (inputs.Status == 200) {
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</action>
+        <action display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</action>
         <cid>aeefd650-9345-48da-af76-7b378fd789b2</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1283,7 +1283,7 @@ if (inputs.Status == 200) {
         <label>Message Body</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</model>
+        <model display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</model>
         <model_id>a0fa6a791b20d41061661f46bc4bcb99</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_a0fa6a791b20d41061661f46bc4bcb99</name>
@@ -1364,7 +1364,7 @@ if (inputs.Status == 200) {
         <label>Notification Hub</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</model>
+        <model display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</model>
         <model_id>a0fa6a791b20d41061661f46bc4bcb99</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_a0fa6a791b20d41061661f46bc4bcb99</name>
@@ -1445,7 +1445,7 @@ if (inputs.Status == 200) {
         <label>Namespace</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</model>
+        <model display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</model>
         <model_id>a0fa6a791b20d41061661f46bc4bcb99</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_a0fa6a791b20d41061661f46bc4bcb99</name>
@@ -1529,7 +1529,7 @@ if (inputs.Status == 200) {
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</model>
+        <model display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</model>
         <model_id>a0fa6a791b20d41061661f46bc4bcb99</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a0fa6a791b20d41061661f46bc4bcb99</name>
@@ -1612,7 +1612,7 @@ if (inputs.Status == 200) {
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</model>
+        <model display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</model>
         <model_id>a0fa6a791b20d41061661f46bc4bcb99</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_a0fa6a791b20d41061661f46bc4bcb99</name>
@@ -1656,7 +1656,7 @@ if (inputs.Status == 200) {
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=a0fa6a791b20d41061661f46bc4bcb99^sys_idNOT IN20fa6a791b20d41061661f46bc4bcbbb,30fa6a791b20d41061661f46bc4bcbf1,70fa6a791b20d41061661f46bc4bcbda"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</action>
+        <action display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</action>
         <cid>db0cccb5-e332-4eb0-aa53-2a46c0967e6b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2131,7 +2131,7 @@ gtime1.setValue("00:00:20");
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>New Time</label>
+        <label>new_time</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre  Validation &amp; Pre Processing">20fa6a791b20d41061661f46bc4bcbbb</model>
@@ -2157,14 +2157,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:37:16</sys_created_on>
         <sys_id>bcfa6a791b20d41061661f46bc4bcbce</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:04</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:39:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2177,7 +2177,7 @@ gtime1.setValue("00:00:20");
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</action>
+        <action display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</action>
         <cid>9dabc4b7-b288-45d6-ad36-6800dcc0c242</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2391,7 +2391,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">30fa6a791b20d41061661f46bc4bcbf1</model>
@@ -2417,14 +2417,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:37:17</sys_created_on>
         <sys_id>01faaa791b20d41061661f46bc4bcb0e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-04 02:37:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:39:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2472,7 +2472,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Error Handling">30fa6a791b20d41061661f46bc4bcbf1</model>
@@ -2498,14 +2498,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:37:16</sys_created_on>
         <sys_id>05faaa791b20d41061661f46bc4bcb06</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-04 02:37:16</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:39:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2518,7 +2518,7 @@ if (inputs.Status == 200) {
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</action>
+        <action display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</action>
         <cid>aeefd650-9345-48da-af76-7b378fd789b2</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2846,11 +2846,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-04 02:37:15</sys_created_on>
         <sys_id>28fa6a791b20d41061661f46bc4bcba1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a0fa6a791b20d41061661f46bc4bcb99_namespace_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-04 02:37:15</sys_updated_on>
         <url/>
@@ -2869,11 +2869,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-04 02:37:15</sys_created_on>
         <sys_id>68fa6a791b20d41061661f46bc4bcbb8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Message Body</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a0fa6a791b20d41061661f46bc4bcb99_message_body_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-04 02:37:15</sys_updated_on>
         <url/>
@@ -2892,11 +2892,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-04 02:37:15</sys_created_on>
         <sys_id>6cfa6a791b20d41061661f46bc4bcba6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Notification Hub</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a0fa6a791b20d41061661f46bc4bcb99_notification_hub_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-04 02:37:15</sys_updated_on>
         <url/>
@@ -2916,11 +2916,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-04 02:37:17</sys_created_on>
         <sys_id>0dfaaa791b20d41061661f46bc4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fa6a791b20d41061661f46bc4bcb99_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-04 02:37:17</sys_updated_on>
         <url/>
@@ -2939,11 +2939,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-04 02:37:17</sys_created_on>
         <sys_id>81faaa791b20d41061661f46bc4bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a0fa6a791b20d41061661f46bc4bcb99_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-04 02:37:17</sys_updated_on>
         <url/>
@@ -3011,19 +3011,19 @@ if (inputs.Status == 200) {
     </sys_choice>
     <sys_hub_action_plan action="delete_multiple" query="action_id=a0fa6a791b20d41061661f46bc4bcb99^sys_idNOT INda8bfc461b015c1046b8c9951a4bcbb9"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</action_id>
+        <action_id display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"da8bfc461b015c1046b8c9951a4bcbb9","name":"plan"}}</plan>
-        <snapshot>2c8b7c461b015c1046b8c9951a4bcbca</snapshot>
+        <snapshot>6d19fdcadb2d14106ad79e7aca96196e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da8bfc461b015c1046b8c9951a4bcbb9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:21</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:48</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3034,22 +3034,22 @@ if (inputs.Status == 200) {
         <category display_value="Notification Hub Management">3fdb5ec31b84105046b8c9951a4bcbe9</category>
         <copied_from/>
         <copied_from_name/>
-        <description/>
+        <description>&lt;p id = "short_desc"&gt; Sends a notification directly to a device handle (a valid token as expressed by the Notification type). Users of this API do not need to use Registrations or Installations.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Inputs&lt;/b&gt; :&lt;/p&gt; &lt;ul id = "inputs"&gt;&lt;li&gt;&lt;b&gt;Namespace&lt;/b&gt; - Name of the  namespace.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Notification Hub&lt;/b&gt; - Name of the notification hub.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Message Body&lt;/b&gt; - Notification message to be pushed on registered device.&lt;/li&gt;&lt;p&gt;&lt;/p&gt;&lt;/ul&gt; &lt;p&gt;&lt;b&gt;Outputs&lt;/b&gt; : &lt;/p&gt;&lt;ul id ='outputs'&gt;&lt;li&gt;&lt;b&gt;Status&lt;/b&gt; - If the request is executed successfully, Status is set to “Success”. If there is a failure in Microsoft Azure Notification Hub, Status is set to “Error”.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Error Message&lt;/b&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Error Messages&lt;/b&gt; : &lt;/p&gt;&lt;ul id = 'error_messages'&gt;&lt;li&gt;Invalid request body. The settings couldn't be read because the request was malformed (or the validation failed).&lt;/li&gt;&lt;li&gt;Authorization failure. The access key was incorrect.&lt;/li&gt;&lt;li&gt;Quota exceeded.&lt;/li&gt;&lt;li&gt;Namespace or Notification Hub or ID Not found.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding Microsoft Azure Notification Hub connection and credential must be created and associated with the Microsoft Azure Notification Hub Connection &amp; Credential alias. &lt;a target='_blank' href='http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias'&gt;Learn More&lt;/a&gt;&lt;/p&gt;  &lt;p&gt;&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt;: Requires a subscription for production use. &lt;a target='_blank' href='https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information'&gt;Read More&lt;/a&gt;.&lt;/p&gt;&lt;!-- This description is generated using the description tool --&gt;</description>
         <internal_name>direct_send</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Channenl URI","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Window Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.registration_id}}","label":"action➛Registration ID","type":"action","ref":""},{"name":"{{action.etag}}","label":"action➛ETag","type":"action","ref":""},{"name":"{{action.message_body}}","label":"action➛Message Body","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛Status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛Error Message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛ETag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].variable}}","label":"step➛Pre  Validation &amp; Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].apns_time}}","label":"step➛Pre  Validation &amp; Pre Processing➛APNS Time","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].new_time}}","label":"step➛Pre  Validation &amp; Pre Processing➛New Time","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].namespace}}","label":"step➛Pre  Validation &amp; Pre Processing➛namespace","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b]._}}","label":"step➛Pre  Validation &amp; Pre Processing➛","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].notificationhub}}","label":"step➛Pre  Validation &amp; Pre Processing➛notificationhub","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Direct Send</name>
+        <name> Send Notification to Device Handle </name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Direct Send">a0fa6a791b20d41061661f46bc4bcb99</parent_action>
+        <parent_action display_value=" Send Notification to Device Handle ">a0fa6a791b20d41061661f46bc4bcb99</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c98bbc461b015c1046b8c9951a4bcb81</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3057,7 +3057,7 @@ if (inputs.Status == 200) {
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:16</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -3090,7 +3090,7 @@ if (inputs.Status == 200) {
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=c98bbc461b015c1046b8c9951a4bcb81^sys_idNOT IN098bbc461b015c1046b8c9951a4bcb96,118bbc461b015c1046b8c9951a4bcbfb,d58bbc461b015c1046b8c9951a4bcbe3"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</action>
+        <action display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</action>
         <cid>db0cccb5-e332-4eb0-aa53-2a46c0967e6b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3105,10 +3105,10 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:16</sys_created_on>
         <sys_id>098bbc461b015c1046b8c9951a4bcb96</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=098bbc461b015c1046b8c9951a4bcb96"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3119,9 +3119,9 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:17</sys_created_on>
         <sys_id>158bbc461b015c1046b8c9951a4bcbe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
         <value>(function execute(inputs, outputs) {
  var results = new AzureNotificationValidation().inputValidation(inputs);
   results = JSON.stringify(results);
@@ -3130,8 +3130,11 @@ if (inputs.Status == 200) {
 	outputs.resourcegroupname = results.NotificationHub;
 
  var gdt = new GlideDateTime();
- gdt.addDaysUTC(1);
- outputs.new_time = gdt.gdt.getDisplayValue(); 
+  outputs.apns_time = gdt; 
+  var gtime1 = new GlideTime();
+gtime1.setValue("00:00:20");
+  gdt.add(gtime1);
+  outputs.new_time = gdt.getDateTime(); 
   
 })(inputs, outputs);
 </value>
@@ -3562,7 +3565,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>New Time</label>
+        <label>new_time</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre  Validation &amp; Pre Processing">098bbc461b015c1046b8c9951a4bcb96</model>
@@ -3588,14 +3591,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:17</sys_created_on>
         <sys_id>c18bbc461b015c1046b8c9951a4bcbcb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3608,7 +3611,7 @@ if (inputs.Status == 200) {
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</action>
+        <action display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</action>
         <cid>9dabc4b7-b288-45d6-ad36-6800dcc0c242</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3822,7 +3825,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">118bbc461b015c1046b8c9951a4bcbfb</model>
@@ -3848,14 +3851,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:18</sys_created_on>
         <sys_id>6d8bfc461b015c1046b8c9951a4bcb0c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:18</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3903,7 +3906,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Error Handling">118bbc461b015c1046b8c9951a4bcbfb</model>
@@ -3929,14 +3932,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:18</sys_created_on>
         <sys_id>d58bfc461b015c1046b8c9951a4bcb04</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:18</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3949,7 +3952,7 @@ if (inputs.Status == 200) {
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</action>
+        <action display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</action>
         <cid>aeefd650-9345-48da-af76-7b378fd789b2</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4303,7 +4306,7 @@ if (inputs.Status == 200) {
         <label>Message Body</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</model>
+        <model display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</model>
         <model_id>c98bbc461b015c1046b8c9951a4bcb81</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_c98bbc461b015c1046b8c9951a4bcb81</name>
@@ -4384,7 +4387,7 @@ if (inputs.Status == 200) {
         <label>Notification Hub</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</model>
+        <model display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</model>
         <model_id>c98bbc461b015c1046b8c9951a4bcb81</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_c98bbc461b015c1046b8c9951a4bcb81</name>
@@ -4465,7 +4468,7 @@ if (inputs.Status == 200) {
         <label>Namespace</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</model>
+        <model display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</model>
         <model_id>c98bbc461b015c1046b8c9951a4bcb81</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_c98bbc461b015c1046b8c9951a4bcb81</name>
@@ -4549,7 +4552,7 @@ if (inputs.Status == 200) {
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</model>
+        <model display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</model>
         <model_id>c98bbc461b015c1046b8c9951a4bcb81</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_c98bbc461b015c1046b8c9951a4bcb81</name>
@@ -4632,7 +4635,7 @@ if (inputs.Status == 200) {
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</model>
+        <model display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</model>
         <model_id>c98bbc461b015c1046b8c9951a4bcb81</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_c98bbc461b015c1046b8c9951a4bcb81</name>
@@ -4676,7 +4679,7 @@ if (inputs.Status == 200) {
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=c98bbc461b015c1046b8c9951a4bcb81^sys_idNOT IN098bbc461b015c1046b8c9951a4bcb96,118bbc461b015c1046b8c9951a4bcbfb,d58bbc461b015c1046b8c9951a4bcbe3"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</action>
+        <action display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</action>
         <cid>db0cccb5-e332-4eb0-aa53-2a46c0967e6b</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4691,10 +4694,10 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:16</sys_created_on>
         <sys_id>098bbc461b015c1046b8c9951a4bcb96</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=098bbc461b015c1046b8c9951a4bcb96"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4705,9 +4708,9 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:17</sys_created_on>
         <sys_id>158bbc461b015c1046b8c9951a4bcbe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
         <value>(function execute(inputs, outputs) {
  var results = new AzureNotificationValidation().inputValidation(inputs);
   results = JSON.stringify(results);
@@ -4716,8 +4719,11 @@ if (inputs.Status == 200) {
 	outputs.resourcegroupname = results.NotificationHub;
 
  var gdt = new GlideDateTime();
- gdt.addDaysUTC(1);
- outputs.new_time = gdt.gdt.getDisplayValue(); 
+  outputs.apns_time = gdt; 
+  var gtime1 = new GlideTime();
+gtime1.setValue("00:00:20");
+  gdt.add(gtime1);
+  outputs.new_time = gdt.getDateTime(); 
   
 })(inputs, outputs);
 </value>
@@ -5148,7 +5154,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>New Time</label>
+        <label>new_time</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Pre  Validation &amp; Pre Processing">098bbc461b015c1046b8c9951a4bcb96</model>
@@ -5174,14 +5180,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:17</sys_created_on>
         <sys_id>c18bbc461b015c1046b8c9951a4bcbcb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:17</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5194,7 +5200,7 @@ if (inputs.Status == 200) {
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</action>
+        <action display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</action>
         <cid>9dabc4b7-b288-45d6-ad36-6800dcc0c242</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5408,7 +5414,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>Error Message</label>
+        <label>error_message</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Error Handling">118bbc461b015c1046b8c9951a4bcbfb</model>
@@ -5434,14 +5440,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:18</sys_created_on>
         <sys_id>6d8bfc461b015c1046b8c9951a4bcb0c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:18</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5489,7 +5495,7 @@ if (inputs.Status == 200) {
         <help/>
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
-        <label>Status</label>
+        <label>status</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Error Handling">118bbc461b015c1046b8c9951a4bcbfb</model>
@@ -5515,14 +5521,14 @@ if (inputs.Status == 200) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-29 09:40:18</sys_created_on>
         <sys_id>d58bfc461b015c1046b8c9951a4bcb04</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:40:18</sys_updated_on>
+        <sys_updated_on>2020-06-23 10:40:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5535,7 +5541,7 @@ if (inputs.Status == 200) {
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Direct Send">c98bbc461b015c1046b8c9951a4bcb81</action>
+        <action display_value=" Send Notification to Device Handle ">c98bbc461b015c1046b8c9951a4bcb81</action>
         <cid>aeefd650-9345-48da-af76-7b378fd789b2</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -5863,11 +5869,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-29 09:40:16</sys_created_on>
         <sys_id>4d8bbc461b015c1046b8c9951a4bcb93</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Message Body</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c98bbc461b015c1046b8c9951a4bcb81_message_body_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-29 09:40:16</sys_updated_on>
         <url/>
@@ -5886,11 +5892,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-29 09:40:16</sys_created_on>
         <sys_id>8d8bbc461b015c1046b8c9951a4bcb8d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Notification Hub</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c98bbc461b015c1046b8c9951a4bcb81_notification_hub_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-29 09:40:16</sys_updated_on>
         <url/>
@@ -5909,11 +5915,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-29 09:40:16</sys_created_on>
         <sys_id>cd8bbc461b015c1046b8c9951a4bcb87</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Namespace</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c98bbc461b015c1046b8c9951a4bcb81_namespace_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-29 09:40:16</sys_updated_on>
         <url/>
@@ -5933,11 +5939,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-29 09:40:18</sys_created_on>
         <sys_id>298bfc461b015c1046b8c9951a4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c98bbc461b015c1046b8c9951a4bcb81_status_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-29 09:40:18</sys_updated_on>
         <url/>
@@ -5956,11 +5962,11 @@ if (inputs.Status == 200) {
         <sys_created_on>2020-05-29 09:40:18</sys_created_on>
         <sys_id>298bfc461b015c1046b8c9951a4bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Error Message</sys_name>
+        <sys_name/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c98bbc461b015c1046b8c9951a4bcb81_error_message_en</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-05-29 09:40:18</sys_updated_on>
         <url/>

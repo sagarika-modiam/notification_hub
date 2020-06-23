@@ -1,4 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="notification_hub_name" table="var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_hub_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-13 02:16:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>588c3c341b30d01046b8c9951a4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-13 02:16:29</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_hub_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>mynowhub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-13 02:16:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>908c3c341b30d01046b8c9951a4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-13 02:16:29</sys_updated_on>
+            <value>mynowhub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>notification_hub_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>mynowtesthub</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-13 02:16:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d88c3c341b30d01046b8c9951a4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-13 02:16:29</sys_updated_on>
+            <value>mynowtesthub</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>notification_hub_name</element>
+            <name>var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-29 11:03:39</sys_created_on>
+            <sys_id>c29e458edb41d41026bbc16c139619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>notification_hub_name</sys_name>
+            <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9_notification_hub_name</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-29 11:03:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</application>
+        <file_path/>
+        <instance_id>fc562a22db9d10904b5c50b6f4961999</instance_id>
+        <instance_name>empmpraveen</instance_name>
+        <name>sys_choice_var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9_notification_hub_name</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="notification_hub_name" table="var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -74,4 +157,42 @@
             <sys_updated_on>2020-05-29 11:03:39</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>1734911296</payload_hash>
+        <record_name>.Notification Hub Name</record_name>
+        <reverted_from/>
+        <source>2e252d46dbe914106ad79e7aca961996</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 09:22:38</sys_created_on>
+        <sys_id>a23725cadbe914106ad79e7aca9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e07c8e780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 09:22:38</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>223725cae0e91410a8b8c662cd287cd1</update_guid>
+        <update_guid_history>223725cae0e91410a8b8c662cd287cd1:0,e23725caf9e9141048f73251754f9fca:1250317220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 10:56:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>a63725cadbe914106ad79e7aca9619ce</sys_id>
+        <sys_metadata>a63725cadbe914106ad79e7aca9619ce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>notification_hub_name</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_scope_delete display_value="">4a240b7e0594452d98c2f5a587a48d21</sys_scope_delete>
+        <sys_update_name>sys_choice_var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9_notification_hub_name</sys_update_name>
+        <sys_update_version display_value="sys_choice_var__m_sys_hub_action_input_988c3c341b30d01046b8c9951a4bcbc9_notification_hub_name">a23725cadbe914106ad79e7aca9619d1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 10:56:17</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
