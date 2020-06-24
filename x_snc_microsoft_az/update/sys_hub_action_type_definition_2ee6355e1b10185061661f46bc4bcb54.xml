@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>update_an_installation</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.installation_id}}","label":"action➛Installation ID","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.installation_id3}}","label":"action➛Installation ID","type":"action","ref":""},{"name":"{{action.platform}}","label":"action➛Platform","type":"action","ref":""},{"name":"{{action.push_channel}}","label":"action➛Push Channel","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.secondary_tile_push_channel}}","label":"action➛Secondary Tile Push Channel","type":"action","ref":""},{"name":"{{action.secondary_tile_tags}}","label":"action➛Secondary Tile Tags","type":"action","ref":""},{"name":"{{action.operation}}","label":"action➛Operation","type":"action","ref":""},{"name":"{{action.path}}","label":"action➛Path","type":"action","ref":""},{"name":"{{action.value}}","label":"action➛Value","type":"action","ref":""},{"name":"{{action.array}}","label":"action➛array","type":"action","ref":""},{"name":"{{action.array.array_child0.op}}","label":"action➛array➛array_child0➛op","type":"action","ref":""},{"name":"{{action.array.array_child0.path5}}","label":"action➛array➛array_child0➛path","type":"action","ref":""},{"name":"{{action.array.array_child0.value6}}","label":"action➛array➛array_child0➛value","type":"action","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].sharedaccesstoken}}","label":"step➛Pre Validation➛SharedAccessToken","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].shared_access_token}}","label":"step➛Pre Validation➛Shared Access Token","type":"step","ref":""},{"name":"{{step[d8713761-977b-496e-bd55-3bf36b6d1441].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[d8713761-977b-496e-bd55-3bf36b6d1441].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[d8713761-977b-496e-bd55-3bf36b6d1441].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[8417a104-472f-4aa6-ad27-d30b904f71ae].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[8417a104-472f-4aa6-ad27-d30b904f71ae].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[8417a104-472f-4aa6-ad27-d30b904f71ae].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""},{"name":"{{step[fc841a9a-1388-4ea5-8d86-eefb66b0a408].variable}}","label":"step➛Payload Builder➛variable","type":"step","ref":""},{"name":"{{step[fc841a9a-1388-4ea5-8d86-eefb66b0a408].payload}}","label":"step➛Payload Builder➛payload","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload}}","label":"step➛Pre Validation➛Payload","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.obj}}","label":"step➛Pre Validation➛Payload➛obj","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.Object}}","label":"step➛Pre Validation➛Payload➛Object","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.Object.object_child1}}","label":"step➛Pre Validation➛Payload➛Object➛Object_child1","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.Object.op}}","label":"step➛Pre Validation➛Payload➛Object➛op","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.Object.object_child2}}","label":"step➛Pre Validation➛Payload➛Object➛Object_child2","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.Object.path}}","label":"step➛Pre Validation➛Payload➛Object➛path","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.Object.object_child3}}","label":"step➛Pre Validation➛Payload➛Object➛Object_child3","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].payload.Object.value}}","label":"step➛Pre Validation➛Payload➛Object➛value","type":"step","ref":""},{"name":"{{step[2603ec7a-f148-4e73-8630-3f7dcdbad17c].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].variable1}}","label":"step➛Pre Validation➛variable1","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].variable2}}","label":"step➛Pre Validation➛variable2","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].installationid}}","label":"step➛Pre Validation➛installationid","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].namespace}}","label":"step➛Pre Validation➛namespace","type":"step","ref":""},{"name":"{{step[47957eae-e58d-4bf8-8eaa-dc047415c7bb].notificationhub}}","label":"step➛Pre Validation➛notificationhub","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>d1b786c6db6d14106ad79e7aca961962</latest_snapshot>
+        <latest_snapshot>2ca3d592db2554106ad79e7aca961962</latest_snapshot>
         <master_snapshot>b9226ed21b90185061661f46bc4bcb75</master_snapshot>
         <name>Update Installation</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2ee6355e1b10185061661f46bc4bcb54</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>Update Installation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2ee6355e1b10185061661f46bc4bcb54</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:44:38</sys_updated_on>
+        <sys_updated_on>2020-06-24 02:35:37</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -4004,17 +4004,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Update Installation">2ee6355e1b10185061661f46bc4bcb54</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2132eed21b90185061661f46bc4bcb7f","name":"plan"}}</plan>
-        <snapshot>d1b786c6db6d14106ad79e7aca961962</snapshot>
+        <snapshot>2ca3d592db2554106ad79e7aca961962</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-23 05:00:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2132eed21b90185061661f46bc4bcb7f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:44:43</sys_updated_on>
+        <sys_updated_on>2020-06-24 02:35:41</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
