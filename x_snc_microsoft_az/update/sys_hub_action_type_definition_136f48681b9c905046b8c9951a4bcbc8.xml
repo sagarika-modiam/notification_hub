@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>list_all_namespaces</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].status}}","label":"step➛Post Processing &amp; Error Handling➛Status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].error_message}}","label":"step➛Post Processing &amp; Error Handling➛Error Message","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list}}","label":"step➛Post Processing &amp; Error Handling➛Namespaces List","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>7c244ac2db6d14106ad79e7aca9619f9</latest_snapshot>
+        <latest_snapshot>e38b2a1edbe554106ad79e7aca96190d</latest_snapshot>
         <master_snapshot>4f4a30f01b30d01046b8c9951a4bcb43</master_snapshot>
         <name>Lookup Namespaces</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>136f48681b9c905046b8c9951a4bcbc8</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Lookup Namespaces</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_136f48681b9c905046b8c9951a4bcbc8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:29:02</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -869,10 +869,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:49:40</sys_created_on>
         <sys_id>af6f48681b9c905046b8c9951a4bcbe0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:45:38</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:26</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=af6f48681b9c905046b8c9951a4bcbe0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -883,10 +883,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:49:41</sys_created_on>
         <sys_id>276f48681b9c905046b8c9951a4bcbf4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:49:41</sys_updated_on>
-        <value>3379f697db0bc010c53e57a0cf961949</value>
+        <sys_updated_on>2020-06-24 08:59:26</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2304,10 +2304,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:49:40</sys_created_on>
         <sys_id>af6f48681b9c905046b8c9951a4bcbe0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:45:38</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:26</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=af6f48681b9c905046b8c9951a4bcbe0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2318,10 +2318,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-17 07:49:41</sys_created_on>
         <sys_id>276f48681b9c905046b8c9951a4bcbf4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-17 07:49:41</sys_updated_on>
-        <value>3379f697db0bc010c53e57a0cf961949</value>
+        <sys_updated_on>2020-06-24 08:59:26</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2773,17 +2773,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8c5a70f01b30d01046b8c9951a4bcb8b","name":"plan"}}</plan>
-        <snapshot>7c244ac2db6d14106ad79e7aca9619f9</snapshot>
+        <snapshot>e38b2a1edbe554106ad79e7aca96190d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c5a70f01b30d01046b8c9951a4bcb8b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:29:06</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:47</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3140,7 +3140,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDbd248ac2276d141068200748c75ee6d7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
+        <attributes>co_type_name=FD6c9b2a1ebde554102976c56713aafbce,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3198,14 +3198,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:52</sys_created_on>
         <sys_id>134a30f01b30d01046b8c9951a4bcbc3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:29:02</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3652,10 +3652,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:51</sys_created_on>
         <sys_id>cb4a30f01b30d01046b8c9951a4bcb5a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:45:51</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cb4a30f01b30d01046b8c9951a4bcb5a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3694,10 +3694,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:51</sys_created_on>
         <sys_id>474a30f01b30d01046b8c9951a4bcb6e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:06:51</sys_updated_on>
-        <value>3379f697db0bc010c53e57a0cf961949</value>
+        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4216,7 +4216,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD8e248ac2aa6d14104a0dba72cf9cc9f3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=dd8cdda7-ec05-4a2e-8dc7-83135faf4556,sourceType=step,sourceUiUniqueId=75babb2f-cb36-47af-a114-3132feb39732,uiType=object,uiTypeLabel=Object,uiUniqueId=21cedac7-c284-418c-85d5-c0f1f114748a</attributes>
+        <attributes>co_type_name=FD209b2a1eb0e554100c8d7041be77b1de,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=dd8cdda7-ec05-4a2e-8dc7-83135faf4556,sourceType=step,sourceUiUniqueId=75babb2f-cb36-47af-a114-3132feb39732,uiType=object,uiTypeLabel=Object,uiUniqueId=21cedac7-c284-418c-85d5-c0f1f114748a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4276,14 +4276,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:52</sys_created_on>
         <sys_id>d74a30f01b30d01046b8c9951a4bcbdf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:29:02</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4575,7 +4575,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDbd248ac2276d141068200748c75ee6d7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
+        <attributes>co_type_name=FD6c9b2a1ebde554102976c56713aafbce,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4633,14 +4633,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:52</sys_created_on>
         <sys_id>134a30f01b30d01046b8c9951a4bcbc3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:29:02</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5087,10 +5087,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:51</sys_created_on>
         <sys_id>cb4a30f01b30d01046b8c9951a4bcb5a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 11:45:51</sys_updated_on>
+        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cb4a30f01b30d01046b8c9951a4bcb5a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5129,10 +5129,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:51</sys_created_on>
         <sys_id>474a30f01b30d01046b8c9951a4bcb6e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-13 02:06:51</sys_updated_on>
-        <value>3379f697db0bc010c53e57a0cf961949</value>
+        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

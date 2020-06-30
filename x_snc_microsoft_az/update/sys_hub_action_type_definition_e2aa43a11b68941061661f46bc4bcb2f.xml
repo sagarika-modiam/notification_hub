@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>create_apns_registration</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Apple Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.device_toke}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.expiry}}","label":"action➛Expiry","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛ETag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[a66348f2-abab-4f74-a4c0-ea3dddef7b4c].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[a66348f2-abab-4f74-a4c0-ea3dddef7b4c].namespace}}","label":"step➛Pre Validation➛namespace","type":"step","ref":""},{"name":"{{step[a66348f2-abab-4f74-a4c0-ea3dddef7b4c].notificaitonhub}}","label":"step➛Pre Validation➛notificaitonhub","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>3f45fdc6db2d14106ad79e7aca96199e</latest_snapshot>
+        <latest_snapshot>40e118d4dbbd50106ad79e7aca9619f7</latest_snapshot>
         <master_snapshot>1a3306491bc1d81046b8c9951a4bcbbc</master_snapshot>
         <name>Create APNS Registration</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e2aa43a11b68941061661f46bc4bcb2f</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Create APNS Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_e2aa43a11b68941061661f46bc4bcb2f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 10:24:16</sys_updated_on>
+        <sys_updated_on>2020-06-30 02:56:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -975,10 +975,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 10:17:23</sys_created_on>
         <sys_id>4faa43a11b68941061661f46bc4bcba3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:17:38</sys_updated_on>
+        <sys_updated_on>2020-06-30 02:55:57</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4faa43a11b68941061661f46bc4bcba3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -989,10 +989,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 10:17:24</sys_created_on>
         <sys_id>17aa43a11b68941061661f46bc4bcbb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:17:24</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-30 02:55:57</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3602,10 +3602,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 10:17:23</sys_created_on>
         <sys_id>4faa43a11b68941061661f46bc4bcba3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:17:38</sys_updated_on>
+        <sys_updated_on>2020-06-30 02:55:57</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4faa43a11b68941061661f46bc4bcba3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3616,10 +3616,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 10:17:24</sys_created_on>
         <sys_id>17aa43a11b68941061661f46bc4bcbb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 10:17:24</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-30 02:55:57</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4869,17 +4869,17 @@ outputs.payload =
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Create APNS Registration">e2aa43a11b68941061661f46bc4bcb2f</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"444386491bc1d81046b8c9951a4bcb83","name":"plan"}}</plan>
-        <snapshot>3f45fdc6db2d14106ad79e7aca96199e</snapshot>
+        <snapshot>40e118d4dbbd50106ad79e7aca9619f7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:19:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>444386491bc1d81046b8c9951a4bcb83</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 10:24:21</sys_updated_on>
+        <sys_updated_on>2020-06-30 02:56:16</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5612,10 +5612,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:19:41</sys_created_on>
         <sys_id>363346491bc1d81046b8c9951a4bcb52</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:19:41</sys_updated_on>
+        <sys_updated_on>2020-06-30 02:56:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=363346491bc1d81046b8c9951a4bcb52"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5654,10 +5654,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:19:41</sys_created_on>
         <sys_id>4f3346491bc1d81046b8c9951a4bcb65</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:19:41</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-30 02:56:09</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8179,10 +8179,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:19:41</sys_created_on>
         <sys_id>363346491bc1d81046b8c9951a4bcb52</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:19:41</sys_updated_on>
+        <sys_updated_on>2020-06-30 02:56:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=363346491bc1d81046b8c9951a4bcb52"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8221,10 +8221,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:19:41</sys_created_on>
         <sys_id>4f3346491bc1d81046b8c9951a4bcb65</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:19:41</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-30 02:56:09</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

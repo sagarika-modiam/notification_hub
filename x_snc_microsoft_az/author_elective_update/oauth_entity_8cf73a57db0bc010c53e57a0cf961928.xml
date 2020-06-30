@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://login.microsoftonline.com/8bcff170-9979-491e-8683-d8ced0850bad/oauth2/v2.0/authorize</auth_url>
+        <certificate_url/>
+        <client_id>5e42c944-a2ec-4699-b187-29e75f964eab</client_id>
+        <client_secret>fLxMg8ldRW6Ve+OIVLr75p/28omzdeR9s82doESBp6Z7MaSa+EyjGA==</client_secret>
+        <client_uuid>0cf73a57db0bc010c53e57a0cf961928</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Azure Notification Hub</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://empmpraveen.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 05:54:05</sys_created_on>
+        <sys_id>8cf73a57db0bc010c53e57a0cf961928</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Azure Notification Hub</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>oauth_entity_8cf73a57db0bc010c53e57a0cf961928</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:52:04</sys_updated_on>
+        <token_url>https://login.microsoftonline.com/8bcff170-9979-491e-8683-d8ced0850bad/oauth2/v2.0/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</application>
+        <file_path/>
+        <instance_id>fc562a22db9d10904b5c50b6f4961999</instance_id>
+        <instance_name>empmpraveen</instance_name>
+        <name>oauth_entity_8cf73a57db0bc010c53e57a0cf961928</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url>https://login.microsoftonline.com/8bcff170-9979-491e-8683-d8ced0850bad/oauth2/v2.0/authorize</auth_url><certificate_url/><client_id>5e42c944-a2ec-4699-b187-29e75f964eab</client_id><client_secret>fLxMg8ldRW6Ve+OIVLr75p/28omzdeR9s82doESBp6Z7MaSa+EyjGA==</client_secret><client_uuid>0cf73a57db0bc010c53e57a0cf961928</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>password</default_grant_type><id_token_lifespan>0</id_token_lifespan><logo_url/><message_signature_lifespan>0</message_signature_lifespan><name>Azure Notification Hub</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://empmpraveen.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><revoke_token_url/><salt>0</salt><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-24 05:54:05</sys_created_on><sys_id>8cf73a57db0bc010c53e57a0cf961928</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Azure Notification Hub</sys_name><sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package><sys_policy/><sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope><sys_update_name>oauth_entity_8cf73a57db0bc010c53e57a0cf961928</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 06:52:04</sys_updated_on><token_url>https://login.microsoftonline.com/8bcff170-9979-491e-8683-d8ced0850bad/oauth2/v2.0/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>2101430896</payload_hash>
+        <record_name>Azure Notification Hub</record_name>
+        <reverted_from/>
+        <source>3e26650adbe914106ad79e7aca9619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:52:04</sys_created_on>
+        <sys_id>ae5e4696dba554106ad79e7aca9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e5190faa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:52:04</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>2a5e469631a5541061ceb2aead3296f7</update_guid>
+        <update_guid_history>2a5e469631a5541061ceb2aead3296f7:2101430896,7d45258641e9141031dd1941877d0b6c:-1328851223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure Notification Hub">17598450dbbd50106ad79e7aca9619f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 02:18:53</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>c265943371bf4990acdcd27d83cb9900</sys_id>
+        <sys_metadata>8cf73a57db0bc010c53e57a0cf961928</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Azure Notification Hub</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_scope_delete display_value="">4a240b7e0594452d98c2f5a587a48d21</sys_scope_delete>
+        <sys_update_name>oauth_entity_8cf73a57db0bc010c53e57a0cf961928</sys_update_name>
+        <sys_update_version display_value="oauth_entity_8cf73a57db0bc010c53e57a0cf961928">ae5e4696dba554106ad79e7aca9619f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 02:18:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

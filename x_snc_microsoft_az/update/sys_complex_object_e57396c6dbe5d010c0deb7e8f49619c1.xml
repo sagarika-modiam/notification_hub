@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD257396c638e5d0106b97de8d34bda1c1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0ad11535db070010c53e57a0cf9619c2</scope_name>
+        <serialized_content>{"FlowDesigner:FD257396c638e5d0106b97de8d34bda1c1":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"aa115a04-6e97-479b-aeb2-eef9aaa83926\"}"},"location":"String","location.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"location\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"5e78f065-5236-40f6-af10-dd2cd2ca0bb1\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"3040753b-f293-4008-bedf-4651895cfb2f\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"type\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"f12d447c-8410-4837-a4d8-7bdaf35655ad\"}"},"properties":{"authorizationRules":"String","authorizationRules.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"authorizationRules\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"21948e7b-c9ce-445e-b0f3-6cab59e7c09a\"}"},"registrationTtl":"String","registrationTtl.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"registrationTtl\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"0ba70d5f-e7a4-4443-a435-a942e1fce0cd\"}"}},"properties.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"properties\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"acb07c92-ec68-4fab-b2d0-ef743a8f8715\"}"}},"FlowDesigner:FD257396c638e5d0106b97de8d34bda1c1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"83313341-9dae-4f4c-af8f-093ecd55f108\",\"default_value\":\"\",\"label\":\"Notification Hub\",\"mandatory\":\"false\",\"uiUniqueId\":\"d462bee6-7246-4026-8880-b7323ef6f1f7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD257396c638e5d0106b97de8d34bda1c1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"64696516-9dcc-4566-932e-1fc13618340c\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 12:35:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e57396c6dbe5d010c0deb7e8f49619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD257396c638e5d0106b97de8d34bda1c1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_complex_object_e57396c6dbe5d010c0deb7e8f49619c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 12:35:54</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

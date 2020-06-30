@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>notification_hub_flow</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Notification Hub Flow</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 07:01:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59805ad6dba554106ad79e7aca9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification Hub Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_59805ad6dba554106ad79e7aca9619d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 07:01:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=59805ad6dba554106ad79e7aca9619d7"/>
+    <sys_variable_value action="DELETE" query="document_key=59805ad6dba554106ad79e7aca9619d7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</application>
+        <file_path/>
+        <instance_id>fc562a22db9d10904b5c50b6f4961999</instance_id>
+        <instance_name>empmpraveen</instance_name>
+        <name>sys_hub_action_type_definition_59805ad6dba554106ad79e7aca9619d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>notification_hub_flow</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Notification Hub Flow</name><natlang/><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 07:01:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>59805ad6dba554106ad79e7aca9619d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notification Hub Flow</sys_name><sys_overrides/><sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package><sys_policy/><sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope><sys_update_name>sys_hub_action_type_definition_59805ad6dba554106ad79e7aca9619d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 07:01:32</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=59805ad6dba554106ad79e7aca9619d7"/><sys_variable_value action="delete_multiple" query="document_key=59805ad6dba554106ad79e7aca9619d7"/></record_update>]]></payload>
+        <payload_hash>1620788712</payload_hash>
+        <record_name>Notification Hub Flow</record_name>
+        <reverted_from/>
+        <source>3e26650adbe914106ad79e7aca9619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 07:01:32</sys_created_on>
+        <sys_id>d5805ad6dba554106ad79e7aca9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e521bcae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 07:01:32</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>11805ad6b4a554100db6ce18f609e3db</update_guid>
+        <update_guid_history>11805ad6b4a554100db6ce18f609e3db:1620788712</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 07:02:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>902771cbc0b440fea6df07d4ebbb7651</sys_id>
+        <sys_metadata>59805ad6dba554106ad79e7aca9619d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification Hub Flow</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_scope_delete display_value="">4a240b7e0594452d98c2f5a587a48d21</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_59805ad6dba554106ad79e7aca9619d7</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_59805ad6dba554106ad79e7aca9619d7">d5805ad6dba554106ad79e7aca9619db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 07:02:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

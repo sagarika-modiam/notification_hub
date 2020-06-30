@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>update__gcm_registration</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.etag}}","label":"action➛ETag","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Apple Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.device_toke}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.expiry}}","label":"action➛Expiry","type":"action","ref":""},{"name":"{{action.registration_id}}","label":"action➛GCM Registration ID","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛eTag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[3f255ceb-7cdd-4d3d-9f0a-a890656d81c0].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[3f255ceb-7cdd-4d3d-9f0a-a890656d81c0].registrationid}}","label":"step➛Pre Validation➛registrationid","type":"step","ref":""},{"name":"{{step[3f255ceb-7cdd-4d3d-9f0a-a890656d81c0].notificationhub}}","label":"step➛Pre Validation➛notificationhub","type":"step","ref":""},{"name":"{{step[3f255ceb-7cdd-4d3d-9f0a-a890656d81c0].namespace}}","label":"step➛Pre Validation➛namespace","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].registration}}","label":"step➛Error Handling➛registration","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>2c170e86db6d14106ad79e7aca961915</latest_snapshot>
+        <latest_snapshot>cc8c1e52dbe554106ad79e7aca96198d</latest_snapshot>
         <master_snapshot>995bc2cd1bc1d81046b8c9951a4bcbcf</master_snapshot>
         <name>Update  GCM Registration</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>862388311be8941061661f46bc4bcb27</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Update  GCM Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_862388311be8941061661f46bc4bcb27</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:41:53</sys_updated_on>
+        <sys_updated_on>2020-06-24 07:54:00</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1934,10 +1934,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 14:24:12</sys_created_on>
         <sys_id>e22388311be8941061661f46bc4bcb9c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:54:51</sys_updated_on>
+        <sys_updated_on>2020-06-24 07:53:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e22388311be8941061661f46bc4bcb9c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1948,10 +1948,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 14:24:12</sys_created_on>
         <sys_id>2a2388311be8941061661f46bc4bcbc8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 14:24:12</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-24 07:53:39</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4880,10 +4880,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 14:24:12</sys_created_on>
         <sys_id>e22388311be8941061661f46bc4bcb9c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:54:51</sys_updated_on>
+        <sys_updated_on>2020-06-24 07:53:39</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e22388311be8941061661f46bc4bcb9c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4894,10 +4894,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-03 14:24:12</sys_created_on>
         <sys_id>2a2388311be8941061661f46bc4bcbc8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-03 14:24:12</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-24 07:53:39</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5471,17 +5471,17 @@ outputs.payload =
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Update  GCM Registration">862388311be8941061661f46bc4bcb27</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"935b46cd1bc1d81046b8c9951a4bcb9e","name":"plan"}}</plan>
-        <snapshot>2c170e86db6d14106ad79e7aca961915</snapshot>
+        <snapshot>cc8c1e52dbe554106ad79e7aca96198d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:55:12</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>935b46cd1bc1d81046b8c9951a4bcb9e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:41:58</sys_updated_on>
+        <sys_updated_on>2020-06-24 07:54:05</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5601,10 +5601,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:55:06</sys_created_on>
         <sys_id>355b06cd1bc1d81046b8c9951a4bcb46</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:55:06</sys_updated_on>
+        <sys_updated_on>2020-06-24 07:53:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=355b06cd1bc1d81046b8c9951a4bcb46"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5657,10 +5657,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:55:06</sys_created_on>
         <sys_id>7d5b06cd1bc1d81046b8c9951a4bcb59</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:55:06</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-24 07:53:59</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8499,10 +8499,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:55:06</sys_created_on>
         <sys_id>355b06cd1bc1d81046b8c9951a4bcb46</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:55:06</sys_updated_on>
+        <sys_updated_on>2020-06-24 07:53:59</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=355b06cd1bc1d81046b8c9951a4bcb46"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8555,10 +8555,10 @@ outputs.payload =
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:55:06</sys_created_on>
         <sys_id>7d5b06cd1bc1d81046b8c9951a4bcb59</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:55:06</sys_updated_on>
-        <value>f0a1108c1bac901046b8c9951a4bcb62</value>
+        <sys_updated_on>2020-06-24 07:53:59</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
         <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

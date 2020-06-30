@@ -6,7 +6,7 @@
         <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">698d23250bb20010b0ec2eec83673aab</category>
+        <category display_value="Metadata Retrieval">698d23250bb20010b0ec2eec83673aab</category>
         <copied_from>a3c7245f1bfb481061661f46bc4bcbe5</copied_from>
         <copied_from_name>Get Properties - Namespace Manag</copied_from_name>
         <description/>
@@ -593,7 +593,7 @@
         <action_template/>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
-        <category display_value="">698d23250bb20010b0ec2eec83673aab</category>
+        <category display_value="Metadata Retrieval">698d23250bb20010b0ec2eec83673aab</category>
         <copied_from/>
         <copied_from_name/>
         <description/>

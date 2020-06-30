@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>get_notication_hub</internal_name>
         <label_cache>[{"name":"{{action.subsctiption_id}}","label":"action➛Subsctiption ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace_name}}","label":"action➛Namespace Name","type":"action","ref":""},{"name":"{{action.notificaiton_hub_name}}","label":"action➛Notificaiton Hub Name","type":"action","ref":""},{"name":"{{step[d3a922ab-9d10-4afc-b14a-7258750d8140].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[d3a922ab-9d10-4afc-b14a-7258750d8140].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""},{"name":"{{step[567476db-d5d2-4598-9b49-e4fd8f6a6b24].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[567476db-d5d2-4598-9b49-e4fd8f6a6b24].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].status}}","label":"step➛Post Processing &amp; Error Handling➛status","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].error_message}}","label":"step➛Post Processing &amp; Error Handling➛error message","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.notification_hub_child1}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛Notification Hub_child1","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.id}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛id","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.notification_hub_child2}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛Notification Hub_child2","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.name}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛name","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.notification_hub_child3}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛Notification Hub_child3","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.type}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛type","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.notification_hub_child4}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛Notification Hub_child4","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.location}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛location","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.notification_hub_child5}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛Notification Hub_child5","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.properties}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛properties","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.properties.registrationTtl}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛properties➛registrationTtl","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[d7d2ff5a-75cf-41bb-b9e4-ab59f057a117].notification_hub.properties.authorizationRules}}","label":"step➛Post Processing &amp; Error Handling➛Notification Hub➛properties➛authorizationRules","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>19d96ddedb2554106ad79e7aca9619fa</latest_snapshot>
+        <latest_snapshot>61231458dbbd50106ad79e7aca96193b</latest_snapshot>
         <master_snapshot>0ed9addedb2554106ad79e7aca9619af</master_snapshot>
         <name>Get Notication Hub</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97e1e99adb2554106ad79e7aca9619ed</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Get Notication Hub</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_97e1e99adb2554106ad79e7aca9619ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:37</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:44</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -352,10 +352,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 03:51:12</sys_created_on>
         <sys_id>4df4291edb2554106ad79e7aca961996</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 03:51:12</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4df4291edb2554106ad79e7aca961996"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -413,6 +413,20 @@
         <sys_updated_on>2020-06-24 03:51:13</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4df4291edb2554106ad79e7aca961996</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:33</sys_created_on>
+        <sys_id>9423d058dbbd50106ad79e7aca961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -492,6 +506,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>4df4291edb2554106ad79e7aca961996</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:33</sys_created_on>
+        <sys_id>1423d058dbbd50106ad79e7aca961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>4df4291edb2554106ad79e7aca961996</id>
         <sys_created_by>admin</sys_created_by>
@@ -527,6 +553,88 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/subscriptions/{{step[d3a922ab-9d10-4afc-b14a-7258750d8140].subscriptionid}}/resourceGroups/{{action.resource_group_name}}/providers/Microsoft.NotificationHubs/namespaces/{{action.namespace_name}}/notificationHubs/{{action.notificaiton_hub_name}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4df4291edb2554106ad79e7aca961996^sys_idNOT INd023d058dbbd50106ad79e7aca961938"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">4df4291edb2554106ad79e7aca961996</model>
+        <model_id>4df4291edb2554106ad79e7aca961996</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4df4291edb2554106ad79e7aca961996</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:33</sys_created_on>
+        <sys_id>d023d058dbbd50106ad79e7aca961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Notication Hub">97e1e99adb2554106ad79e7aca9619ed</action>
         <cid>d7d2ff5a-75cf-41bb-b9e4-ab59f057a117</cid>
@@ -1217,9 +1325,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 03:40:26</sys_created_on>
         <sys_id>ab72e1dadb2554106ad79e7aca961996</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:22</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:32</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ab72e1dadb2554106ad79e7aca961996"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1339,9 +1447,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:14</sys_created_on>
         <sys_id>55c92ddedb2554106ad79e7aca96196d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:22</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:32</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55c92ddedb2554106ad79e7aca96196d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1992,10 +2100,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 03:51:12</sys_created_on>
         <sys_id>4df4291edb2554106ad79e7aca961996</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 03:51:12</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4df4291edb2554106ad79e7aca961996"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2053,6 +2161,20 @@
         <sys_updated_on>2020-06-24 03:51:13</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
         <variable display_value="">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>4df4291edb2554106ad79e7aca961996</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:33</sys_created_on>
+        <sys_id>9423d058dbbd50106ad79e7aca961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2132,6 +2254,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>4df4291edb2554106ad79e7aca961996</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:33</sys_created_on>
+        <sys_id>1423d058dbbd50106ad79e7aca961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>4df4291edb2554106ad79e7aca961996</id>
         <sys_created_by>admin</sys_created_by>
@@ -2167,6 +2301,88 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/subscriptions/{{step[d3a922ab-9d10-4afc-b14a-7258750d8140].subscriptionid}}/resourceGroups/{{action.resource_group_name}}/providers/Microsoft.NotificationHubs/namespaces/{{action.namespace_name}}/notificationHubs/{{action.notificaiton_hub_name}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=4df4291edb2554106ad79e7aca961996^sys_idNOT INd023d058dbbd50106ad79e7aca961938"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">4df4291edb2554106ad79e7aca961996</model>
+        <model_id>4df4291edb2554106ad79e7aca961996</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_4df4291edb2554106ad79e7aca961996</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:33</sys_created_on>
+        <sys_id>d023d058dbbd50106ad79e7aca961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Notication Hub">97e1e99adb2554106ad79e7aca9619ed</action>
         <cid>d7d2ff5a-75cf-41bb-b9e4-ab59f057a117</cid>
@@ -2977,17 +3193,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Notication Hub">97e1e99adb2554106ad79e7aca9619ed</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"cce92112db6554106ad79e7aca96194a","name":"plan"}}</plan>
-        <snapshot>19d96ddedb2554106ad79e7aca9619fa</snapshot>
+        <snapshot>61231458dbbd50106ad79e7aca96193b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cce92112db6554106ad79e7aca96194a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:42</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:49</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3339,10 +3555,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:35</sys_created_on>
         <sys_id>2ad9addedb2554106ad79e7aca9619e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:36</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ad9addedb2554106ad79e7aca9619e8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3400,6 +3616,20 @@
         <sys_updated_on>2020-06-24 04:12:36</sys_updated_on>
         <value>define_connection_inline</value>
         <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ad9addedb2554106ad79e7aca9619e8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:43</sys_created_on>
+        <sys_id>72235458dbbd50106ad79e7aca961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -3479,6 +3709,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>2ad9addedb2554106ad79e7aca9619e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:43</sys_created_on>
+        <sys_id>fe235458dbbd50106ad79e7aca961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>2ad9addedb2554106ad79e7aca9619e8</id>
         <sys_created_by>admin</sys_created_by>
@@ -3514,6 +3756,88 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/subscriptions/{{step[d3a922ab-9d10-4afc-b14a-7258750d8140].subscriptionid}}/resourceGroups/{{action.resource_group_name}}/providers/Microsoft.NotificationHubs/namespaces/{{action.namespace_name}}/notificationHubs/{{action.notificaiton_hub_name}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ad9addedb2554106ad79e7aca9619e8^sys_idNOT INbe235458dbbd50106ad79e7aca961929"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">2ad9addedb2554106ad79e7aca9619e8</model>
+        <model_id>2ad9addedb2554106ad79e7aca9619e8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ad9addedb2554106ad79e7aca9619e8</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:43</sys_created_on>
+        <sys_id>be235458dbbd50106ad79e7aca961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Notication Hub">0ed9addedb2554106ad79e7aca9619af</action>
         <cid>d7d2ff5a-75cf-41bb-b9e4-ab59f057a117</cid>
@@ -3794,7 +4118,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDe2d9edde972554102c6e3ee364683720,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b35e7c93-8f57-4167-b141-2d9df62bec7a</attributes>
+        <attributes>co_type_name=FD7e235458e8bd5010329aa66d2bf50a3f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b35e7c93-8f57-4167-b141-2d9df62bec7a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3852,14 +4176,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:36</sys_created_on>
         <sys_id>72d9eddedb2554106ad79e7aca961931</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:36</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4123,9 +4447,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:34</sys_created_on>
         <sys_id>9ed9addedb2554106ad79e7aca9619c4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:34</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:42</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ed9addedb2554106ad79e7aca9619c4"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4326,9 +4650,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:35</sys_created_on>
         <sys_id>ded9addedb2554106ad79e7aca9619cc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:35</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:42</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ded9addedb2554106ad79e7aca9619cc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4542,7 +4866,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD36d9edde862554106ed19cafb10dab3d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d7d2ff5a-75cf-41bb-b9e4-ab59f057a117,sourceType=step,sourceUiUniqueId=b35e7c93-8f57-4167-b141-2d9df62bec7a,uiType=object,uiTypeLabel=Object,uiUniqueId=5a207cd4-da84-4f7f-b54c-caeae892abda</attributes>
+        <attributes>co_type_name=FD8b23545827bd5010407af4900030d04f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=d7d2ff5a-75cf-41bb-b9e4-ab59f057a117,sourceType=step,sourceUiUniqueId=b35e7c93-8f57-4167-b141-2d9df62bec7a,uiType=object,uiTypeLabel=Object,uiUniqueId=5a207cd4-da84-4f7f-b54c-caeae892abda</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4602,14 +4926,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:37</sys_created_on>
         <sys_id>f2d9eddedb2554106ad79e7aca96194e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:37</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4979,10 +5303,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:35</sys_created_on>
         <sys_id>2ad9addedb2554106ad79e7aca9619e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:36</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ad9addedb2554106ad79e7aca9619e8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5040,6 +5364,20 @@
         <sys_updated_on>2020-06-24 04:12:36</sys_updated_on>
         <value>define_connection_inline</value>
         <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ad9addedb2554106ad79e7aca9619e8</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:43</sys_created_on>
+        <sys_id>72235458dbbd50106ad79e7aca961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
+        <value>237ec696dba554106ad79e7aca9619b8</value>
+        <variable display_value="">445c2a72b3701300176b051a16a8dcc2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -5119,6 +5457,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>2ad9addedb2554106ad79e7aca9619e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:43</sys_created_on>
+        <sys_id>fe235458dbbd50106ad79e7aca961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>headers</field>
         <id>2ad9addedb2554106ad79e7aca9619e8</id>
         <sys_created_by>admin</sys_created_by>
@@ -5154,6 +5504,88 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>/subscriptions/{{step[d3a922ab-9d10-4afc-b14a-7258750d8140].subscriptionid}}/resourceGroups/{{action.resource_group_name}}/providers/Microsoft.NotificationHubs/namespaces/{{action.namespace_name}}/notificationHubs/{{action.notificaiton_hub_name}}</value>
     </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=2ad9addedb2554106ad79e7aca9619e8^sys_idNOT INbe235458dbbd50106ad79e7aca961929"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">2ad9addedb2554106ad79e7aca9619e8</model>
+        <model_id>2ad9addedb2554106ad79e7aca9619e8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_2ad9addedb2554106ad79e7aca9619e8</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 03:01:43</sys_created_on>
+        <sys_id>be235458dbbd50106ad79e7aca961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 03:01:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Notication Hub">0ed9addedb2554106ad79e7aca9619af</action>
         <cid>d7d2ff5a-75cf-41bb-b9e4-ab59f057a117</cid>
@@ -5434,7 +5866,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDe2d9edde972554102c6e3ee364683720,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b35e7c93-8f57-4167-b141-2d9df62bec7a</attributes>
+        <attributes>co_type_name=FD7e235458e8bd5010329aa66d2bf50a3f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b35e7c93-8f57-4167-b141-2d9df62bec7a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5492,14 +5924,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:36</sys_created_on>
         <sys_id>72d9eddedb2554106ad79e7aca961931</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 04:12:36</sys_updated_on>
+        <sys_updated_on>2020-06-30 03:01:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

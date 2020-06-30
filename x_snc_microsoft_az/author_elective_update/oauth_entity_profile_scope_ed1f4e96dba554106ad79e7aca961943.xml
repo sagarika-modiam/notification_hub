@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="DELETE">
+        <oauth_entity_profile display_value="Azure_Notification_Hub">ecf7f657db0bc010c53e57a0cf9619ae</oauth_entity_profile>
+        <oauth_entity_scope display_value="scope">5d883a57db0bc010c53e57a0cf96193c</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:55:34</sys_created_on>
+        <sys_id>ed1f4e96dba554106ad79e7aca961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ecf7f657db0bc010c53e57a0cf9619ae</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_ed1f4e96dba554106ad79e7aca961943</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:55:34</sys_updated_on>
+    </oauth_entity_profile_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</application>
+        <file_path/>
+        <instance_id>fc562a22db9d10904b5c50b6f4961999</instance_id>
+        <instance_name>empmpraveen</instance_name>
+        <name>oauth_entity_profile_scope_ed1f4e96dba554106ad79e7aca961943</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope"><oauth_entity_profile_scope action="INSERT_OR_UPDATE"><oauth_entity_profile display_value="Azure_Notification_Hub">ecf7f657db0bc010c53e57a0cf9619ae</oauth_entity_profile><oauth_entity_scope display_value="scope">5d883a57db0bc010c53e57a0cf96193c</oauth_entity_scope><sys_class_name>oauth_entity_profile_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 06:55:34</sys_created_on><sys_id>ed1f4e96dba554106ad79e7aca961943</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ecf7f657db0bc010c53e57a0cf9619ae</sys_name><sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package><sys_policy/><sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope><sys_update_name>oauth_entity_profile_scope_ed1f4e96dba554106ad79e7aca961943</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 06:55:34</sys_updated_on></oauth_entity_profile_scope></record_update>]]></payload>
+        <payload_hash>1622471187</payload_hash>
+        <record_name>ecf7f657db0bc010c53e57a0cf9619ae</record_name>
+        <reverted_from/>
+        <source>3e26650adbe914106ad79e7aca9619be</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 06:55:35</sys_created_on>
+        <sys_id>062f8e96dba554106ad79e7aca96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e51c46560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 06:55:35</sys_updated_on>
+        <type>OAuth Entity Profile Scope</type>
+        <update_guid>4e2f8e960ea5541084818b07d5df783c</update_guid>
+        <update_guid_history>4e2f8e960ea5541084818b07d5df783c:1622471187</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Azure_Notification_Hub">df598450dbbd50106ad79e7aca9619ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 02:18:52</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile_scope">oauth_entity_profile_scope</sys_db_object>
+        <sys_id>50ed70a59ae54b589f99e97626317a40</sys_id>
+        <sys_metadata>ed1f4e96dba554106ad79e7aca961943</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ecf7f657db0bc010c53e57a0cf9619ae</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_scope_delete display_value="">4a240b7e0594452d98c2f5a587a48d21</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_scope_ed1f4e96dba554106ad79e7aca961943</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_scope_ed1f4e96dba554106ad79e7aca961943">062f8e96dba554106ad79e7aca96193d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 02:18:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
