@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>update__apns_registration</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Apple Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.device_toke}}","label":"action➛Device Token","type":"action","ref":""},{"name":"{{action.expiry}}","label":"action➛Expiry","type":"action","ref":""},{"name":"{{action.etag}}","label":"action➛ETag","type":"action","ref":""},{"name":"{{action.registration_id}}","label":"action➛Registration ID","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛eTag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].variable}}","label":"step➛Pre Validation ➛variable","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].namespace}}","label":"step➛Pre Validation ➛namespace","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].notificaitonhub}}","label":"step➛Pre Validation ➛notificaitonhub","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].etag}}","label":"step➛Pre Validation ➛etag","type":"step","ref":""},{"name":"{{step[67248c6d-335b-4241-8f77-d05097653bb7].registration}}","label":"step➛Pre Validation ➛registration","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>23831c58dbbd50106ad79e7aca9619ce</latest_snapshot>
+        <latest_snapshot>87c2f3bcdbb5d0106ad79e7aca961932</latest_snapshot>
         <master_snapshot>82e74e0d1bc1d81046b8c9951a4bcb86</master_snapshot>
         <name>Update  APNS Registration</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>941b1fa91b68941061661f46bc4bcbaf</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Update  APNS Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_941b1fa91b68941061661f46bc4bcbaf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 03:03:41</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:35:53</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -5927,17 +5927,17 @@ outputs.payload =
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Update  APNS Registration">941b1fa91b68941061661f46bc4bcbaf</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9cf7ce0d1bc1d81046b8c9951a4bcba6","name":"plan"}}</plan>
-        <snapshot>23831c58dbbd50106ad79e7aca9619ce</snapshot>
+        <snapshot>87c2f3bcdbb5d0106ad79e7aca961932</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:40:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9cf7ce0d1bc1d81046b8c9951a4bcba6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 03:03:48</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:36:01</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>

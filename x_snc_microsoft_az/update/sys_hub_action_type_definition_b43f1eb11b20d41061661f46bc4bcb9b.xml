@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>send_apns_native_notification</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.shared_access_key}}","label":"action➛Shared Access Key","type":"action","ref":""},{"name":"{{action.shared_access_key_name}}","label":"action➛Shared Access Key Name","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.registration_device}}","label":"action➛Registration Device","type":"action","ref":""},{"name":"{{action.wns}}","label":"action➛WNS","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.channenl_uri}}","label":"action➛Channenl URI","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Window Registration Description","type":"action","ref":""},{"name":"{{action.entry_description}}","label":"action➛Entry Description","type":"action","ref":""},{"name":"{{action.body_template}}","label":"action➛Body Template","type":"action","ref":""},{"name":"{{action.header_value}}","label":"action➛Header Value","type":"action","ref":""},{"name":"{{action.x_wns_tile}}","label":"action➛X-WNS-Tile","type":"action","ref":""},{"name":"{{action.x_wns_tag}}","label":"action➛X-WNS-Tag","type":"action","ref":""},{"name":"{{action.registration_id}}","label":"action➛Registration ID","type":"action","ref":""},{"name":"{{action.etag}}","label":"action➛ETag","type":"action","ref":""},{"name":"{{action.message_body}}","label":"action➛Message Body","type":"action","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[cc9878ba-ebb5-4c10-9387-1a2827222b48].payload}}","label":"step➛Pre Processing➛Payload","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""},{"name":"{{step[9dabc4b7-b288-45d6-ad36-6800dcc0c242].etag}}","label":"step➛Error Handling➛ETag","type":"step","ref":""},{"name":"{{step[aeefd650-9345-48da-af76-7b378fd789b2].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].variable}}","label":"step➛Pre  Validation &amp; Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].apns_time}}","label":"step➛Pre  Validation &amp; Pre Processing➛APNS Time","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].new_time}}","label":"step➛Pre  Validation &amp; Pre Processing➛New Time","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].notificationhub}}","label":"step➛Pre  Validation &amp; Pre Processing➛notificationhub","type":"step","ref":""},{"name":"{{step[db0cccb5-e332-4eb0-aa53-2a46c0967e6b].namespace}}","label":"step➛Pre  Validation &amp; Pre Processing➛namespace","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>b3c2d818dbbd50106ad79e7aca961991</latest_snapshot>
+        <latest_snapshot>69337fbcdbb5d0106ad79e7aca961974</latest_snapshot>
         <master_snapshot>f30c0ecd1bc1d81046b8c9951a4bcbe7</master_snapshot>
         <name>Send APNS Native Notification</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b43f1eb11b20d41061661f46bc4bcb9b</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Send APNS Native Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_b43f1eb11b20d41061661f46bc4bcb9b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 03:00:15</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1362,7 +1362,7 @@ gtime1.setValue("00:00:20");
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Message Body</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Send APNS Native Notification">b43f1eb11b20d41061661f46bc4bcb9b</model>
         <model_id>b43f1eb11b20d41061661f46bc4bcb9b</model_id>
@@ -1387,14 +1387,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 02:27:44</sys_created_on>
         <sys_id>4dc8e6391b20d41061661f46bc4bcb97</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-04 02:27:44</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1443,7 +1443,7 @@ gtime1.setValue("00:00:20");
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Namespace</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Send APNS Native Notification">b43f1eb11b20d41061661f46bc4bcb9b</model>
         <model_id>b43f1eb11b20d41061661f46bc4bcb9b</model_id>
@@ -1468,14 +1468,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 01:45:56</sys_created_on>
         <sys_id>703f1eb11b20d41061661f46bc4bcb9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-04 01:45:56</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1524,7 +1524,7 @@ gtime1.setValue("00:00:20");
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Notification Hub</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Send APNS Native Notification">b43f1eb11b20d41061661f46bc4bcb9b</model>
         <model_id>b43f1eb11b20d41061661f46bc4bcb9b</model_id>
@@ -1549,14 +1549,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-04 01:45:56</sys_created_on>
         <sys_id>f43f1eb11b20d41061661f46bc4bcba5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-04 01:45:56</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3175,17 +3175,17 @@ gtime1.setValue("00:00:20");
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Send APNS Native Notification">b43f1eb11b20d41061661f46bc4bcb9b</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"811c8ecd1bc1d81046b8c9951a4bcb19","name":"plan"}}</plan>
-        <snapshot>b3c2d818dbbd50106ad79e7aca961991</snapshot>
+        <snapshot>69337fbcdbb5d0106ad79e7aca961974</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:58:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>811c8ecd1bc1d81046b8c9951a4bcb19</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 03:00:19</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:42</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -4547,7 +4547,7 @@ gtime1.setValue("00:00:20");
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Message Body</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Send APNS Native Notification">f30c0ecd1bc1d81046b8c9951a4bcbe7</model>
         <model_id>f30c0ecd1bc1d81046b8c9951a4bcbe7</model_id>
@@ -4572,14 +4572,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:58:15</sys_created_on>
         <sys_id>3f0c0ecd1bc1d81046b8c9951a4bcbf4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:58:15</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4628,7 +4628,7 @@ gtime1.setValue("00:00:20");
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Namespace</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Send APNS Native Notification">f30c0ecd1bc1d81046b8c9951a4bcbe7</model>
         <model_id>f30c0ecd1bc1d81046b8c9951a4bcbe7</model_id>
@@ -4653,14 +4653,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:58:15</sys_created_on>
         <sys_id>770c0ecd1bc1d81046b8c9951a4bcbe8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:58:15</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4709,7 +4709,7 @@ gtime1.setValue("00:00:20");
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Notification Hub</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Send APNS Native Notification">f30c0ecd1bc1d81046b8c9951a4bcbe7</model>
         <model_id>f30c0ecd1bc1d81046b8c9951a4bcbe7</model_id>
@@ -4734,14 +4734,14 @@ gtime1.setValue("00:00:20");
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-26 12:58:15</sys_created_on>
         <sys_id>7f0c0ecd1bc1d81046b8c9951a4bcbee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-26 12:58:15</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:37:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -3,7 +3,7 @@
         <access>public</access>
         <acls/>
         <action_template/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Metadata Retrieval">36a311701b70d01046b8c9951a4bcb6d</category>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>541110e81b9c905046b8c9951a4bcb1a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>BaiduCredential - Notifications</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_541110e81b9c905046b8c9951a4bcb1a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 09:45:31</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:19:49</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

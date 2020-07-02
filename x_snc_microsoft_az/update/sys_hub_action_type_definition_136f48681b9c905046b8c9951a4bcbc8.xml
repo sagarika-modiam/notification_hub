@@ -13,9 +13,9 @@
         <ih_action>true</ih_action>
         <internal_name>list_all_namespaces</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].status}}","label":"step➛Post Processing &amp; Error Handling➛Status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].error_message}}","label":"step➛Post Processing &amp; Error Handling➛Error Message","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list}}","label":"step➛Post Processing &amp; Error Handling➛Namespaces List","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>e38b2a1edbe554106ad79e7aca96190d</latest_snapshot>
+        <latest_snapshot>ff3de378dbb5d0106ad79e7aca96199e</latest_snapshot>
         <master_snapshot>4f4a30f01b30d01046b8c9951a4bcb43</master_snapshot>
-        <name>Lookup Namespaces</name>
+        <name>Look up Namespaces</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>136f48681b9c905046b8c9951a4bcbc8</sys_id>
-        <sys_mod_count>39</sys_mod_count>
-        <sys_name>Lookup Namespaces</sys_name>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>Look up Namespaces</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_136f48681b9c905046b8c9951a4bcbc8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:59:44</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:11:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -79,7 +79,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=136f48681b9c905046b8c9951a4bcbc8^sys_idNOT IN276f48681b9c905046b8c9951a4bcbf8,ab6f48681b9c905046b8c9951a4bcbd2,af6f48681b9c905046b8c9951a4bcbe0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
+        <action display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -597,7 +597,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
+        <action display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -854,7 +854,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
+        <action display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -1220,7 +1220,7 @@
         <label>Subscription ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
+        <model display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
         <model_id>136f48681b9c905046b8c9951a4bcbc8</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_136f48681b9c905046b8c9951a4bcbc8</name>
@@ -1304,7 +1304,7 @@
         <label>Namespace List</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
+        <model display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
         <model_id>136f48681b9c905046b8c9951a4bcbc8</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_136f48681b9c905046b8c9951a4bcbc8</name>
@@ -1387,7 +1387,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
+        <model display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
         <model_id>136f48681b9c905046b8c9951a4bcbc8</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_136f48681b9c905046b8c9951a4bcbc8</name>
@@ -1470,7 +1470,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
+        <model display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</model>
         <model_id>136f48681b9c905046b8c9951a4bcbc8</model_id>
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_136f48681b9c905046b8c9951a4bcbc8</name>
@@ -1514,7 +1514,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=136f48681b9c905046b8c9951a4bcbc8^sys_idNOT IN276f48681b9c905046b8c9951a4bcbf8,ab6f48681b9c905046b8c9951a4bcbd2,af6f48681b9c905046b8c9951a4bcbe0"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
+        <action display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2032,7 +2032,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
+        <action display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -2289,7 +2289,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
+        <action display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -2771,19 +2771,19 @@
     </sys_choice>
     <sys_hub_action_plan action="delete_multiple" query="action_id=136f48681b9c905046b8c9951a4bcbc8^sys_idNOT IN8c5a70f01b30d01046b8c9951a4bcb8b"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
-        <action_id display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</action_id>
+        <action_id display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8c5a70f01b30d01046b8c9951a4bcb8b","name":"plan"}}</plan>
-        <snapshot>e38b2a1edbe554106ad79e7aca96190d</snapshot>
+        <snapshot>ff3de378dbb5d0106ad79e7aca96199e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c5a70f01b30d01046b8c9951a4bcb8b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:59:47</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:11:39</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2798,18 +2798,18 @@
         <internal_name>list_all_namespaces</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].status}}","label":"step➛Post Processing &amp; Error Handling➛Status","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].error_message}}","label":"step➛Post Processing &amp; Error Handling➛Error Message","type":"step","ref":""},{"name":"{{step[dd8cdda7-ec05-4a2e-8dc7-83135faf4556].list}}","label":"step➛Post Processing &amp; Error Handling➛Namespaces List","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""}]</label_cache>
         <master>true</master>
-        <name>Lookup Namespaces</name>
+        <name>Look up Namespaces</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <parent_action display_value="Lookup Namespaces">136f48681b9c905046b8c9951a4bcbc8</parent_action>
+        <parent_action display_value="Look up Namespaces">136f48681b9c905046b8c9951a4bcbc8</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f4a30f01b30d01046b8c9951a4bcb43</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2817,7 +2817,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-23 11:23:16</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:11:33</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2862,7 +2862,7 @@
     </sys_element_mapping>
     <sys_hub_step_instance action="delete_multiple" query="action=4f4a30f01b30d01046b8c9951a4bcb43^sys_idNOT IN8b4a30f01b30d01046b8c9951a4bcb97,c34a30f01b30d01046b8c9951a4bcb4c,cb4a30f01b30d01046b8c9951a4bcb5a"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
+        <action display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3140,7 +3140,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD6c9b2a1ebde554102976c56713aafbce,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
+        <attributes>co_type_name=FDc54d277818b5d0105bceea45c4626f91,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3198,14 +3198,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:52</sys_created_on>
         <sys_id>134a30f01b30d01046b8c9951a4bcbc3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:11:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3380,7 +3380,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
+        <action display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -3637,7 +3637,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
+        <action display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>
@@ -4003,7 +4003,7 @@
         <label>Subscription ID</label>
         <mandatory>true</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
+        <model display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
         <model_id>4f4a30f01b30d01046b8c9951a4bcb43</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_4f4a30f01b30d01046b8c9951a4bcb43</name>
@@ -4087,7 +4087,7 @@
         <label>Status</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
+        <model display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
         <model_id>4f4a30f01b30d01046b8c9951a4bcb43</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_4f4a30f01b30d01046b8c9951a4bcb43</name>
@@ -4170,7 +4170,7 @@
         <label>Error Message</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
+        <model display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
         <model_id>4f4a30f01b30d01046b8c9951a4bcb43</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_4f4a30f01b30d01046b8c9951a4bcb43</name>
@@ -4216,7 +4216,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD209b2a1eb0e554100c8d7041be77b1de,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=dd8cdda7-ec05-4a2e-8dc7-83135faf4556,sourceType=step,sourceUiUniqueId=75babb2f-cb36-47af-a114-3132feb39732,uiType=object,uiTypeLabel=Object,uiUniqueId=21cedac7-c284-418c-85d5-c0f1f114748a</attributes>
+        <attributes>co_type_name=FDcd4d277877b5d0104cfb30e4d07c0ba0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=dd8cdda7-ec05-4a2e-8dc7-83135faf4556,sourceType=step,sourceUiUniqueId=75babb2f-cb36-47af-a114-3132feb39732,uiType=object,uiTypeLabel=Object,uiUniqueId=21cedac7-c284-418c-85d5-c0f1f114748a</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4253,7 +4253,7 @@
         <label>Namespace List</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
+        <model display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</model>
         <model_id>4f4a30f01b30d01046b8c9951a4bcb43</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_4f4a30f01b30d01046b8c9951a4bcb43</name>
@@ -4276,14 +4276,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:52</sys_created_on>
         <sys_id>d74a30f01b30d01046b8c9951a4bcbdf</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:59:44</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:11:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4297,7 +4297,7 @@
     </sys_hub_action_output>
     <sys_hub_step_instance action="delete_multiple" query="action=4f4a30f01b30d01046b8c9951a4bcb43^sys_idNOT IN8b4a30f01b30d01046b8c9951a4bcb97,c34a30f01b30d01046b8c9951a4bcb4c,cb4a30f01b30d01046b8c9951a4bcb5a"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
+        <action display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
         <cid>dd8cdda7-ec05-4a2e-8dc7-83135faf4556</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -4575,7 +4575,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD6c9b2a1ebde554102976c56713aafbce,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
+        <attributes>co_type_name=FDc54d277818b5d0105bceea45c4626f91,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=75babb2f-cb36-47af-a114-3132feb39732</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4633,14 +4633,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:06:52</sys_created_on>
         <sys_id>134a30f01b30d01046b8c9951a4bcbc3</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:59:43</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:11:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4815,7 +4815,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
+        <action display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
         <cid>e3e6acbe-2e40-4e6d-9706-ee0eb0e2cc00</cid>
         <extended_inputs/>
         <extended_inputs/>
@@ -5072,7 +5072,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Lookup Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
+        <action display_value="Look up Namespaces">4f4a30f01b30d01046b8c9951a4bcb43</action>
         <cid>a44737f1-a742-4517-ba6d-b92fabf2da2f</cid>
         <extended_inputs/>
         <extended_outputs/>

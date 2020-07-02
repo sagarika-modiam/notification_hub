@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>update_installation</internal_name>
         <label_cache>[{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.installation_id}}","label":"action➛Installation ID","type":"action","ref":""},{"name":"{{action.operation}}","label":"action➛Operation","type":"action","ref":""},{"name":"{{action.path}}","label":"action➛Path","type":"action","ref":""},{"name":"{{action.value}}","label":"action➛Value","type":"action","ref":""},{"name":"{{step[4a309479-fa66-4d27-8703-38cecd8f4859].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[4a309479-fa66-4d27-8703-38cecd8f4859].installationid}}","label":"step➛Pre Validation➛installationid","type":"step","ref":""},{"name":"{{step[4a309479-fa66-4d27-8703-38cecd8f4859].namespace}}","label":"step➛Pre Validation➛namespace","type":"step","ref":""},{"name":"{{step[4a309479-fa66-4d27-8703-38cecd8f4859].notificationhub}}","label":"step➛Pre Validation➛notificationhub","type":"step","ref":""},{"name":"{{step[e835467f-11df-4331-bdcc-d55a0d37cab0].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":""},{"name":"{{step[1db50e3b-1513-4819-b82d-e6fa4a790d5b].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[1db50e3b-1513-4819-b82d-e6fa4a790d5b].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[95c18bd3-499c-4c30-b02e-7f5866064721].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[95c18bd3-499c-4c30-b02e-7f5866064721].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[95c18bd3-499c-4c30-b02e-7f5866064721].error_message}}","label":"step➛Error Handling➛error_message","type":"step","ref":""},{"name":"{{step[95c18bd3-499c-4c30-b02e-7f5866064721].error_message2}}","label":"step➛Error Handling➛error message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>6515089cdb7d50106ad79e7aca961911</latest_snapshot>
+        <latest_snapshot>2372fb7cdbb5d0106ad79e7aca9619e6</latest_snapshot>
         <master_snapshot>ba15089cdb7d50106ad79e7aca9619e3</master_snapshot>
         <name>Update Installation</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>00a1c41cdb7d50106ad79e7aca961952</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Update Installation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_00a1c41cdb7d50106ad79e7aca961952</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:00:20</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:33</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1598,7 +1598,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Path</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Update Installation">00a1c41cdb7d50106ad79e7aca961952</model>
         <model_id>00a1c41cdb7d50106ad79e7aca961952</model_id>
@@ -1623,14 +1623,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 01:59:53</sys_created_on>
         <sys_id>4905449cdb7d50106ad79e7aca9619f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 01:59:53</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1760,7 +1760,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Value</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Update Installation">00a1c41cdb7d50106ad79e7aca961952</model>
         <model_id>00a1c41cdb7d50106ad79e7aca961952</model_id>
@@ -1785,14 +1785,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 01:59:53</sys_created_on>
         <sys_id>cd05449cdb7d50106ad79e7aca9619f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 01:59:53</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1841,7 +1841,7 @@
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Operation</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Update Installation">00a1c41cdb7d50106ad79e7aca961952</model>
         <model_id>00a1c41cdb7d50106ad79e7aca961952</model_id>
@@ -1866,14 +1866,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 01:59:52</sys_created_on>
         <sys_id>f005449cdb7d50106ad79e7aca9619ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 01:59:52</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3876,17 +3876,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Update Installation">00a1c41cdb7d50106ad79e7aca961952</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6d25889cdb7d50106ad79e7aca96197d","name":"plan"}}</plan>
-        <snapshot>6515089cdb7d50106ad79e7aca961911</snapshot>
+        <snapshot>2372fb7cdbb5d0106ad79e7aca9619e6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:00:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d25889cdb7d50106ad79e7aca96197d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:00:28</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:38</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5403,7 +5403,7 @@
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Operation</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Update Installation">ba15089cdb7d50106ad79e7aca9619e3</model>
         <model_id>ba15089cdb7d50106ad79e7aca9619e3</model_id>
@@ -5428,14 +5428,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:00:17</sys_created_on>
         <sys_id>3615089cdb7d50106ad79e7aca9619f5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:00:17</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5565,7 +5565,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Value</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Update Installation">ba15089cdb7d50106ad79e7aca9619e3</model>
         <model_id>ba15089cdb7d50106ad79e7aca9619e3</model_id>
@@ -5590,14 +5590,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:00:17</sys_created_on>
         <sys_id>3e15489cdb7d50106ad79e7aca961902</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:00:17</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5727,7 +5727,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Path</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Update Installation">ba15089cdb7d50106ad79e7aca9619e3</model>
         <model_id>ba15089cdb7d50106ad79e7aca9619e3</model_id>
@@ -5752,14 +5752,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:00:17</sys_created_on>
         <sys_id>f615089cdb7d50106ad79e7aca9619fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:00:17</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:34:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

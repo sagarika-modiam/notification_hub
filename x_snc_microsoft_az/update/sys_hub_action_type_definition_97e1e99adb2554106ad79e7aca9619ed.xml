@@ -1443,7 +1443,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">6772e1dadb2554106ad79e7aca961999</action_input>
         <action_inputs/>
-        <action_type display_value="Lookup Notication Hubs">b9a5615edb2554106ad79e7aca961989</action_type>
+        <action_type display_value="Look up Notication Hubs">b9a5615edb2554106ad79e7aca961989</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:14</sys_created_on>
         <sys_id>55c92ddedb2554106ad79e7aca96196d</sys_id>
@@ -4646,7 +4646,7 @@
     <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
         <action_input display_value="">56d9addedb2554106ad79e7aca9619c6</action_input>
         <action_inputs/>
-        <action_type display_value="Lookup Notication Hubs">b9a5615edb2554106ad79e7aca961989</action_type>
+        <action_type display_value="Look up Notication Hubs">b9a5615edb2554106ad79e7aca961989</action_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-24 04:12:35</sys_created_on>
         <sys_id>ded9addedb2554106ad79e7aca9619cc</sys_id>

@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>get_namespace</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[a44737f1-a742-4517-ba6d-b92fabf2da2f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].variable}}","label":"step➛Post Processing &amp; Error Handling➛variable","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].status}}","label":"step➛Post Processing &amp; Error Handling➛status","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].error_message}}","label":"step➛Post Processing &amp; Error Handling➛error message","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].namespace}}","label":"step➛Post Processing &amp; Error Handling➛Namespace","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list}}","label":"step➛Post Processing &amp; Error Handling➛List","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child1","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list._}}","label":"step➛Post Processing &amp; Error Handling➛List","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.id}}","label":"step➛Post Processing &amp; Error Handling➛List➛id","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child2","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛name","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child3","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.location}}","label":"step➛Post Processing &amp; Error Handling➛List➛location","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child4","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.kind}}","label":"step➛Post Processing &amp; Error Handling➛List➛kind","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child5","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.sku}}","label":"step➛Post Processing &amp; Error Handling➛List➛sku","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.sku.sku_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛sku➛sku_child1","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.sku.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛sku➛name","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child6","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.tags}}","label":"step➛Post Processing &amp; Error Handling➛List➛tags","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.tags.name}}","label":"step➛Post Processing &amp; Error Handling➛List➛tags➛name","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.list_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛List_child7","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child1}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child1","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.provisioningState}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛provisioningState","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child2}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child2","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.metricId}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛metricId","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child3}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child3","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.status1}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛status","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.status}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛status","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child4}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child4","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.createdAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛createdAt","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child5}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child5","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.serviceBusEndpoint}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛serviceBusEndpoint","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child6}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child6","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.enabled}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛enabled","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child7}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child7","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.critical}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛critical","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child8}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child8","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.updatedAt}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛updatedAt","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.properties_child9}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛properties_child9","type":"step","ref":""},{"name":"{{step[8774ee4c-33a7-4381-b84a-315d4a1dcb6d].list.properties.namespaceType}}","label":"step➛Post Processing &amp; Error Handling➛List➛properties➛namespaceType","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].resourcegroupname}}","label":"step➛Pre Validation➛resourcegroupname","type":"step","ref":""},{"name":"{{step[96770b42-ac56-4be4-b214-8bf5801ab2cb].namespace}}","label":"step➛Pre Validation➛namespace","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>2f1b2edadbe554106ad79e7aca96192f</latest_snapshot>
+        <latest_snapshot>0e06af34dbb5d0106ad79e7aca96194b</latest_snapshot>
         <master_snapshot>eeb974b01b30d01046b8c9951a4bcbbd</master_snapshot>
         <name>Get Namespace</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>098b84e41b9c905046b8c9951a4bcb3c</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Get Namespace</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_098b84e41b9c905046b8c9951a4bcb3c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:50</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:08</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1701,9 +1701,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:10</sys_created_on>
         <sys_id>7fa9f0b01b30d01046b8c9951a4bcb87</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:39</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:39:50</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7fa9f0b01b30d01046b8c9951a4bcb87"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1809,9 +1809,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:10</sys_created_on>
         <sys_id>8cb9f0b01b30d01046b8c9951a4bcb98</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:39</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:39:50</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8cb9f0b01b30d01046b8c9951a4bcb98"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3792,17 +3792,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Namespace">098b84e41b9c905046b8c9951a4bcb3c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c8c9f4b01b30d01046b8c9951a4bcb08","name":"plan"}}</plan>
-        <snapshot>2f1b2edadbe554106ad79e7aca96192f</snapshot>
+        <snapshot>0e06af34dbb5d0106ad79e7aca96194b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:27</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c8c9f4b01b30d01046b8c9951a4bcb08</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:55</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:14</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -3828,7 +3828,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eeb974b01b30d01046b8c9951a4bcbbd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3836,7 +3836,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:48</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -4321,7 +4321,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD282b6eda77e55410aa59b8566e8fc02f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3ded1c20-438e-4363-9446-940dc920e9e0</attributes>
+        <attributes>co_type_name=FD1016ef34f2b5d010f3aa2f86bb26f581,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3ded1c20-438e-4363-9446-940dc920e9e0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -4379,14 +4379,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:23</sys_created_on>
         <sys_id>c3b9b4b01b30d01046b8c9951a4bcb29</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:49</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5422,9 +5422,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:22</sys_created_on>
         <sys_id>7ab974b01b30d01046b8c9951a4bcbd3</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:48</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:05</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7ab974b01b30d01046b8c9951a4bcbd3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5544,9 +5544,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:22</sys_created_on>
         <sys_id>72b974b01b30d01046b8c9951a4bcbcc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:48</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:05</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72b974b01b30d01046b8c9951a4bcbcc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5815,7 +5815,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDb42b6eda54e554108f63428079f00950,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=8774ee4c-33a7-4381-b84a-315d4a1dcb6d,sourceType=step,sourceUiUniqueId=3ded1c20-438e-4363-9446-940dc920e9e0,uiType=object,uiTypeLabel=Object,uiUniqueId=c40e4e1b-7ee9-4502-95f8-2fb40db00ff0</attributes>
+        <attributes>co_type_name=FD6416ef3488b5d010abecf93b6888d890,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=8774ee4c-33a7-4381-b84a-315d4a1dcb6d,sourceType=step,sourceUiUniqueId=3ded1c20-438e-4363-9446-940dc920e9e0,uiType=object,uiTypeLabel=Object,uiUniqueId=c40e4e1b-7ee9-4502-95f8-2fb40db00ff0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -5875,14 +5875,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:24</sys_created_on>
         <sys_id>8bb9b4b01b30d01046b8c9951a4bcb45</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:50</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -6336,7 +6336,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD282b6eda77e55410aa59b8566e8fc02f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3ded1c20-438e-4363-9446-940dc920e9e0</attributes>
+        <attributes>co_type_name=FD1016ef34f2b5d010f3aa2f86bb26f581,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=3ded1c20-438e-4363-9446-940dc920e9e0</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -6394,14 +6394,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 02:04:23</sys_created_on>
         <sys_id>c3b9b4b01b30d01046b8c9951a4bcb29</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 08:57:49</sys_updated_on>
+        <sys_updated_on>2020-07-02 07:40:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

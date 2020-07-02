@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>create_or_update_notification_hub</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group Name","type":"action","ref":""},{"name":"{{action.namespace}}","label":"action➛Namespace","type":"action","ref":""},{"name":"{{action.notification_hub}}","label":"action➛Notification Hub","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{action.sku}}","label":"action➛SKU","type":"action","ref":""},{"name":"{{action.properties}}","label":"action➛Properties","type":"action","ref":""},{"name":"{{action.admcredentials}}","label":"action➛AdmCredentials","type":"action","ref":""},{"name":"{{action.apnscredentials}}","label":"action➛ApnsCredentials","type":"action","ref":""},{"name":"{{action.baiducredential}}","label":"action➛BaiduCredential","type":"action","ref":""},{"name":"{{action.gcmcredential}}","label":"action➛GcmCredential","type":"action","ref":""},{"name":"{{action.mpnscredential}}","label":"action➛MpnsCredential","type":"action","ref":""},{"name":"{{action.wnscredential}}","label":"action➛WnsCredential","type":"action","ref":""},{"name":"{{step[dc61b1d0-d3da-4d47-8347-930f55bc664e].variable}}","label":"step➛Pre Validation➛variable","type":"step","ref":""},{"name":"{{step[dc61b1d0-d3da-4d47-8347-930f55bc664e].variable1}}","label":"step➛Pre Validation➛variable1","type":"step","ref":""},{"name":"{{step[dc61b1d0-d3da-4d47-8347-930f55bc664e].subscriptionid}}","label":"step➛Pre Validation➛subscriptionid","type":"step","ref":""},{"name":"{{step[dc61b1d0-d3da-4d47-8347-930f55bc664e].notificationhub}}","label":"step➛Pre Validation➛notificationhub","type":"step","ref":""},{"name":"{{step[29a31815-e721-469c-8679-795971be8e2b].variable}}","label":"step➛Payload Script➛variable","type":"step","ref":""},{"name":"{{step[29a31815-e721-469c-8679-795971be8e2b].sku}}","label":"step➛Payload Script➛sku","type":"step","ref":""},{"name":"{{step[ec341f41-cdd6-4eef-ab7b-31f9af2901cf].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[ec341f41-cdd6-4eef-ab7b-31f9af2901cf].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[deb6f000-ea95-4b6f-90c5-f7bdbd2250b7].variable}}","label":"step➛Error Handling➛variable","type":"step","ref":""},{"name":"{{step[deb6f000-ea95-4b6f-90c5-f7bdbd2250b7].status}}","label":"step➛Error Handling➛status","type":"step","ref":""},{"name":"{{step[deb6f000-ea95-4b6f-90c5-f7bdbd2250b7].error_message}}","label":"step➛Error Handling➛error message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>279d4cd0dbbd50106ad79e7aca9619c2</latest_snapshot>
+        <latest_snapshot>27e0333cdbb5d0106ad79e7aca9619e5</latest_snapshot>
         <master_snapshot>05adccd0dbbd50106ad79e7aca96190f</master_snapshot>
         <name>Create or Update Notification Hub</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e1998450dbbd50106ad79e7aca961901</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Create or Update Notification Hub</sys_name>
         <sys_overrides/>
         <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_e1998450dbbd50106ad79e7aca961901</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:40</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:47</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2453,9 +2453,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:04</sys_created_on>
         <sys_id>0aca0490dbbd50106ad79e7aca961938</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:22</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0aca0490dbbd50106ad79e7aca961938"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -2495,7 +2495,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Resource Group Name</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Create or Update Notification Hub">e1998450dbbd50106ad79e7aca961901</model>
         <model_id>e1998450dbbd50106ad79e7aca961901</model_id>
@@ -2520,14 +2520,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:02</sys_created_on>
         <sys_id>21cac090dbbd50106ad79e7aca9619ed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:25:02</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2547,9 +2547,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:02</sys_created_on>
         <sys_id>edcac090dbbd50106ad79e7aca9619f2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:21</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=edcac090dbbd50106ad79e7aca9619f2"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2655,9 +2655,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:03</sys_created_on>
         <sys_id>35ca0490dbbd50106ad79e7aca961915</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=35ca0490dbbd50106ad79e7aca961915"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -2749,9 +2749,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:04</sys_created_on>
         <sys_id>3dca0490dbbd50106ad79e7aca96192c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3dca0490dbbd50106ad79e7aca96192c"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -2843,9 +2843,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:04</sys_created_on>
         <sys_id>31ca0490dbbd50106ad79e7aca961921</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=31ca0490dbbd50106ad79e7aca961921"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -2885,7 +2885,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Subscription ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Create or Update Notification Hub">e1998450dbbd50106ad79e7aca961901</model>
         <model_id>e1998450dbbd50106ad79e7aca961901</model_id>
@@ -2910,14 +2910,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:02</sys_created_on>
         <sys_id>51ca8090dbbd50106ad79e7aca961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:25:02</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2966,7 +2966,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Notification Hub</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Create or Update Notification Hub">e1998450dbbd50106ad79e7aca961901</model>
         <model_id>e1998450dbbd50106ad79e7aca961901</model_id>
@@ -2991,14 +2991,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:03</sys_created_on>
         <sys_id>65cac090dbbd50106ad79e7aca9619fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:25:03</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3047,7 +3047,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Namespace</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Create or Update Notification Hub">e1998450dbbd50106ad79e7aca961901</model>
         <model_id>e1998450dbbd50106ad79e7aca961901</model_id>
@@ -3072,14 +3072,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:02</sys_created_on>
         <sys_id>69cac090dbbd50106ad79e7aca9619f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:25:02</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3099,9 +3099,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:03</sys_created_on>
         <sys_id>29cac090dbbd50106ad79e7aca9619fa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:21</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=29cac090dbbd50106ad79e7aca9619fa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3221,9 +3221,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:04</sys_created_on>
         <sys_id>8aca0490dbbd50106ad79e7aca961932</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8aca0490dbbd50106ad79e7aca961932"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -3315,9 +3315,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:04</sys_created_on>
         <sys_id>bdca0490dbbd50106ad79e7aca961926</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bdca0490dbbd50106ad79e7aca961926"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -3409,9 +3409,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:04</sys_created_on>
         <sys_id>b1ca0490dbbd50106ad79e7aca96191b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1ca0490dbbd50106ad79e7aca96191b"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -3451,7 +3451,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Location</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Create or Update Notification Hub">e1998450dbbd50106ad79e7aca961901</model>
         <model_id>e1998450dbbd50106ad79e7aca961901</model_id>
@@ -3476,14 +3476,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:03</sys_created_on>
         <sys_id>e9ca0490dbbd50106ad79e7aca961901</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:25:03</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:07</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3503,9 +3503,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:03</sys_created_on>
         <sys_id>79ca0490dbbd50106ad79e7aca961909</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=79ca0490dbbd50106ad79e7aca961909"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -3597,9 +3597,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:25:03</sys_created_on>
         <sys_id>f5ca0490dbbd50106ad79e7aca96190f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:21</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5ca0490dbbd50106ad79e7aca96190f"/>
     <sys_hub_action_output action="delete_multiple" query="model=e1998450dbbd50106ad79e7aca961901^sys_idNOT IN357d88d0dbbd50106ad79e7aca9619f1,f97d88d0dbbd50106ad79e7aca9619f9"/>
@@ -6542,17 +6542,17 @@ if (admIn != "") {
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Create or Update Notification Hub">e1998450dbbd50106ad79e7aca961901</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"9cbd4014dbbd50106ad79e7aca961986","name":"plan"}}</plan>
-        <snapshot>279d4cd0dbbd50106ad79e7aca9619c2</snapshot>
+        <snapshot>27e0333cdbb5d0106ad79e7aca9619e5</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9cbd4014dbbd50106ad79e7aca961986</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:47</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:54</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -8953,7 +8953,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Resource Group Name</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Create or Update Notification Hub">05adccd0dbbd50106ad79e7aca96190f</model>
         <model_id>05adccd0dbbd50106ad79e7aca96190f</model_id>
@@ -8978,14 +8978,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:34</sys_created_on>
         <sys_id>05adccd0dbbd50106ad79e7aca961916</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:34</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9005,9 +9005,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:34</sys_created_on>
         <sys_id>05adccd0dbbd50106ad79e7aca96191c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:34</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=05adccd0dbbd50106ad79e7aca96191c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9061,7 +9061,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Namespace</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Create or Update Notification Hub">05adccd0dbbd50106ad79e7aca96190f</model>
         <model_id>05adccd0dbbd50106ad79e7aca96190f</model_id>
@@ -9086,14 +9086,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:34</sys_created_on>
         <sys_id>05adccd0dbbd50106ad79e7aca96191d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:34</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9113,9 +9113,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:35</sys_created_on>
         <sys_id>15adccd0dbbd50106ad79e7aca961923</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:35</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=15adccd0dbbd50106ad79e7aca961923"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9183,7 +9183,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Location</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <model display_value="Create or Update Notification Hub">05adccd0dbbd50106ad79e7aca96190f</model>
         <model_id>05adccd0dbbd50106ad79e7aca96190f</model_id>
@@ -9208,14 +9208,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:35</sys_created_on>
         <sys_id>11adccd0dbbd50106ad79e7aca96192a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:35</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9235,9 +9235,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:35</sys_created_on>
         <sys_id>d5adccd0dbbd50106ad79e7aca96193c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:35</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5adccd0dbbd50106ad79e7aca96193c"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -9329,9 +9329,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:35</sys_created_on>
         <sys_id>15adccd0dbbd50106ad79e7aca961942</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:35</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=15adccd0dbbd50106ad79e7aca961942"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -9423,9 +9423,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:35</sys_created_on>
         <sys_id>55adccd0dbbd50106ad79e7aca96196d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:35</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55adccd0dbbd50106ad79e7aca96196d"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -9517,9 +9517,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:36</sys_created_on>
         <sys_id>21adccd0dbbd50106ad79e7aca96198b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:36</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21adccd0dbbd50106ad79e7aca96198b"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -9611,9 +9611,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:36</sys_created_on>
         <sys_id>25adccd0dbbd50106ad79e7aca96199c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:36</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=25adccd0dbbd50106ad79e7aca96199c"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -9705,9 +9705,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:36</sys_created_on>
         <sys_id>29adccd0dbbd50106ad79e7aca961996</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:36</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=29adccd0dbbd50106ad79e7aca961996"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -9799,9 +9799,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:36</sys_created_on>
         <sys_id>2dadccd0dbbd50106ad79e7aca961990</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:36</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2dadccd0dbbd50106ad79e7aca961990"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -9841,7 +9841,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Subscription ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Create or Update Notification Hub">05adccd0dbbd50106ad79e7aca96190f</model>
         <model_id>05adccd0dbbd50106ad79e7aca96190f</model_id>
@@ -9866,14 +9866,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:34</sys_created_on>
         <sys_id>85adccd0dbbd50106ad79e7aca961910</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:34</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9974,9 +9974,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:36</sys_created_on>
         <sys_id>15adccd0dbbd50106ad79e7aca961985</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:36</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=15adccd0dbbd50106ad79e7aca961985"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -10068,9 +10068,9 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:35</sys_created_on>
         <sys_id>51adccd0dbbd50106ad79e7aca961973</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:35</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=51adccd0dbbd50106ad79e7aca961973"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -10110,7 +10110,7 @@ if (admIn != "") {
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Notification Hub</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="Create or Update Notification Hub">05adccd0dbbd50106ad79e7aca96190f</model>
         <model_id>05adccd0dbbd50106ad79e7aca96190f</model_id>
@@ -10135,14 +10135,14 @@ if (admIn != "") {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 02:37:35</sys_created_on>
         <sys_id>d9adccd0dbbd50106ad79e7aca961924</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 02:37:35</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:27:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
