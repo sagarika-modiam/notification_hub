@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD50b21a5a23a5541055a171ddc6c9d70b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0ad11535db070010c53e57a0cf9619c2</scope_name>
+        <serialized_content>{"FlowDesigner:FD50b21a5a23a5541055a171ddc6c9d70b":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD50b21a5a23a5541055a171ddc6c9d70b.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Template Tags\",\"mandatory\":\"false\",\"child_name\":\"Template Tags_child0\",\"uiUniqueId\":\"d9c45f11-f699-4576-ae0d-e1265af10892\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD50b21a5a23a5541055a171ddc6c9d70b\",\"child_label\":\"Template Tags_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"10\",\"max_length\":\"8000\",\"child_uiUniqueId\":\"e132a3d4-a4d0-4eb9-8464-2e746c40b357\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 07:11:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14b21a5adba554106ad79e7aca96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD50b21a5a23a5541055a171ddc6c9d70b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_complex_object_14b21a5adba554106ad79e7aca96190b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 07:11:01</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

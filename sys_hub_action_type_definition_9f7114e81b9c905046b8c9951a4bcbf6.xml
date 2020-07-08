@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Metadata Retrieval">698d23250bb20010b0ec2eec83673aab</category>
+        <copied_from>2ffd7d1f1bbf481061661f46bc4bcbfe</copied_from>
+        <copied_from_name>MpnsCredential - Notifications</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>mpnscredential__notifications</internal_name>
+        <label_cache>[{"name":"{{step[57c17af6-eba5-48b9-9750-2aa7ba74848c].variable}}","label":"step➛Payload Script➛variable","type":"step","ref":""},{"name":"{{step[57c17af6-eba5-48b9-9750-2aa7ba74848c].properties}}","label":"step➛Payload Script➛Properties","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>effbb4861b015c1046b8c9951a4bcbcd</latest_snapshot>
+        <master_snapshot>69358d781b30d01046b8c9951a4bcb99</master_snapshot>
+        <name>MpnsCredential - Notifications</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f7114e81b9c905046b8c9951a4bcbf6</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>MpnsCredential - Notifications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9f7114e81b9c905046b8c9951a4bcbf6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:20:00</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=9f7114e81b9c905046b8c9951a4bcbf6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9f7114e81b9c905046b8c9951a4bcbf6"/>
+    <sys_element_mapping action="delete_multiple" query="id=9f7114e81b9c905046b8c9951a4bcbf6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>9f7114e81b9c905046b8c9951a4bcbf6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>2f7154e81b9c905046b8c9951a4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 07:58:41</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9f7114e81b9c905046b8c9951a4bcbf6</table>
+        <value>{{step[57c17af6-eba5-48b9-9750-2aa7ba74848c].properties}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=9f7114e81b9c905046b8c9951a4bcbf6^sys_idNOT IN537114e81b9c905046b8c9951a4bcbfb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MpnsCredential - Notifications">9f7114e81b9c905046b8c9951a4bcbf6</action>
+        <cid>57c17af6-eba5-48b9-9750-2aa7ba74848c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Script</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>537114e81b9c905046b8c9951a4bcbfb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 09:42:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=537114e81b9c905046b8c9951a4bcbfb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>537114e81b9c905046b8c9951a4bcbfb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>237154e81b9c905046b8c9951a4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 07:58:41</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>537114e81b9c905046b8c9951a4bcbfb</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>e37154e81b9c905046b8c9951a4bcb13</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 09:42:21</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  outputs.properties = {
+                        data: [
+                            
+                          {
+                                label: "certificateKey",
+                                name: "certificateKey"
+                                
+                            }, 
+                          {
+                                label: "mpnsCertificate",
+                                name: "mpnsCertificate"
+                                
+                            }, 
+                          {
+                                label: "thumbprint",
+                                name: "thumbprint"
+                                
+                            }, 
+                        ]
+                }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=537114e81b9c905046b8c9951a4bcbfb^sys_idNOT IN677114e81b9c905046b8c9951a4bcbfe"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=0ecf073f-f012-4e95-b1f3-4575ba60edcb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>properties</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Properties</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Payload Script">537114e81b9c905046b8c9951a4bcbfb</model>
+        <model_id>537114e81b9c905046b8c9951a4bcbfb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_537114e81b9c905046b8c9951a4bcbfb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>677114e81b9c905046b8c9951a4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 07:58:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=9f7114e81b9c905046b8c9951a4bcbf6^sys_idNOT INa77154e81b9c905046b8c9951a4bcb15"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=adc1ac84-d2e2-4677-94b8-e36c085fb2e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MpnsCredential - Notifications">9f7114e81b9c905046b8c9951a4bcbf6</model>
+        <model_id>9f7114e81b9c905046b8c9951a4bcbf6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_9f7114e81b9c905046b8c9951a4bcbf6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>a77154e81b9c905046b8c9951a4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 07:58:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=9f7114e81b9c905046b8c9951a4bcbf6^sys_idNOT IN537114e81b9c905046b8c9951a4bcbfb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MpnsCredential - Notifications">9f7114e81b9c905046b8c9951a4bcbf6</action>
+        <cid>57c17af6-eba5-48b9-9750-2aa7ba74848c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Script</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>537114e81b9c905046b8c9951a4bcbfb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 09:42:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=537114e81b9c905046b8c9951a4bcbfb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>537114e81b9c905046b8c9951a4bcbfb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>237154e81b9c905046b8c9951a4bcb13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 07:58:41</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>537114e81b9c905046b8c9951a4bcbfb</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>e37154e81b9c905046b8c9951a4bcb13</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 09:42:21</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  outputs.properties = {
+                        data: [
+                            
+                          {
+                                label: "certificateKey",
+                                name: "certificateKey"
+                                
+                            }, 
+                          {
+                                label: "mpnsCertificate",
+                                name: "mpnsCertificate"
+                                
+                            }, 
+                          {
+                                label: "thumbprint",
+                                name: "thumbprint"
+                                
+                            }, 
+                        ]
+                }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=537114e81b9c905046b8c9951a4bcbfb^sys_idNOT IN677114e81b9c905046b8c9951a4bcbfe"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=0ecf073f-f012-4e95-b1f3-4575ba60edcb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>properties</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Properties</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Payload Script">537114e81b9c905046b8c9951a4bcbfb</model>
+        <model_id>537114e81b9c905046b8c9951a4bcbfb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_537114e81b9c905046b8c9951a4bcbfb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>677114e81b9c905046b8c9951a4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 07:58:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9f7114e81b9c905046b8c9951a4bcbf6^sys_idNOT INa37154e81b9c905046b8c9951a4bcb1a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_9f7114e81b9c905046b8c9951a4bcbf6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-17 07:58:41</sys_created_on>
+        <sys_id>a37154e81b9c905046b8c9951a4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Output</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9f7114e81b9c905046b8c9951a4bcbf6_output_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-17 07:58:41</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=9f7114e81b9c905046b8c9951a4bcbf6^sys_idNOT INbd358d781b30d01046b8c9951a4bcbe3"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="MpnsCredential - Notifications">9f7114e81b9c905046b8c9951a4bcbf6</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bd358d781b30d01046b8c9951a4bcbe3","name":"plan"}}</plan>
+        <snapshot>11358d781b30d01046b8c9951a4bcb81</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd358d781b30d01046b8c9951a4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Metadata Retrieval">698d23250bb20010b0ec2eec83673aab</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>mpnscredential__notifications</internal_name>
+        <label_cache>[{"name":"{{step[57c17af6-eba5-48b9-9750-2aa7ba74848c].variable}}","label":"step➛Payload Script➛variable","type":"step","ref":""},{"name":"{{step[57c17af6-eba5-48b9-9750-2aa7ba74848c].properties}}","label":"step➛Payload Script➛Properties","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>MpnsCredential - Notifications</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="MpnsCredential - Notifications">9f7114e81b9c905046b8c9951a4bcbf6</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>69358d781b30d01046b8c9951a4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=69358d781b30d01046b8c9951a4bcb99"/>
+    <sys_variable_value action="delete_multiple" query="document_key=69358d781b30d01046b8c9951a4bcb99"/>
+    <sys_element_mapping action="delete_multiple" query="id=69358d781b30d01046b8c9951a4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>output</field>
+        <id>69358d781b30d01046b8c9951a4bcb99</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_id>a1358d781b30d01046b8c9951a4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_69358d781b30d01046b8c9951a4bcb99</table>
+        <value>{{step[57c17af6-eba5-48b9-9750-2aa7ba74848c].properties}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=69358d781b30d01046b8c9951a4bcb99^sys_idNOT INe1358d781b30d01046b8c9951a4bcb9b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MpnsCredential - Notifications">69358d781b30d01046b8c9951a4bcb99</action>
+        <cid>57c17af6-eba5-48b9-9750-2aa7ba74848c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Script</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:31</sys_created_on>
+        <sys_id>e1358d781b30d01046b8c9951a4bcb9b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e1358d781b30d01046b8c9951a4bcb9b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e1358d781b30d01046b8c9951a4bcb9b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_id>25358d781b30d01046b8c9951a4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  outputs.properties = {
+                        data: [
+                            
+                          {
+                                label: "certificateKey",
+                                name: "certificateKey"
+                                
+                            }, 
+                          {
+                                label: "mpnsCertificate",
+                                name: "mpnsCertificate"
+                                
+                            }, 
+                          {
+                                label: "thumbprint",
+                                name: "thumbprint"
+                                
+                            }, 
+                        ]
+                }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e1358d781b30d01046b8c9951a4bcb9b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_id>61358d781b30d01046b8c9951a4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e1358d781b30d01046b8c9951a4bcb9b^sys_idNOT IN69358d781b30d01046b8c9951a4bcb9e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=0ecf073f-f012-4e95-b1f3-4575ba60edcb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>properties</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Properties</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Payload Script">e1358d781b30d01046b8c9951a4bcb9b</model>
+        <model_id>e1358d781b30d01046b8c9951a4bcb9b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e1358d781b30d01046b8c9951a4bcb9b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:31</sys_created_on>
+        <sys_id>69358d781b30d01046b8c9951a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="delete_multiple" query="model=69358d781b30d01046b8c9951a4bcb99^sys_idNOT INe5358d781b30d01046b8c9951a4bcba9"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=adc1ac84-d2e2-4677-94b8-e36c085fb2e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MpnsCredential - Notifications">69358d781b30d01046b8c9951a4bcb99</model>
+        <model_id>69358d781b30d01046b8c9951a4bcb99</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_69358d781b30d01046b8c9951a4bcb99</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_id>e5358d781b30d01046b8c9951a4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=69358d781b30d01046b8c9951a4bcb99^sys_idNOT INe1358d781b30d01046b8c9951a4bcb9b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MpnsCredential - Notifications">69358d781b30d01046b8c9951a4bcb99</action>
+        <cid>57c17af6-eba5-48b9-9750-2aa7ba74848c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Script</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:31</sys_created_on>
+        <sys_id>e1358d781b30d01046b8c9951a4bcb9b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e1358d781b30d01046b8c9951a4bcb9b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e1358d781b30d01046b8c9951a4bcb9b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_id>25358d781b30d01046b8c9951a4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  outputs.properties = {
+                        data: [
+                            
+                          {
+                                label: "certificateKey",
+                                name: "certificateKey"
+                                
+                            }, 
+                          {
+                                label: "mpnsCertificate",
+                                name: "mpnsCertificate"
+                                
+                            }, 
+                          {
+                                label: "thumbprint",
+                                name: "thumbprint"
+                                
+                            }, 
+                        ]
+                }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e1358d781b30d01046b8c9951a4bcb9b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_id>61358d781b30d01046b8c9951a4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e1358d781b30d01046b8c9951a4bcb9b^sys_idNOT IN69358d781b30d01046b8c9951a4bcb9e"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=0ecf073f-f012-4e95-b1f3-4575ba60edcb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>properties</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>Properties</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Payload Script">e1358d781b30d01046b8c9951a4bcb9b</model>
+        <model_id>e1358d781b30d01046b8c9951a4bcb9b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e1358d781b30d01046b8c9951a4bcb9b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:31</sys_created_on>
+        <sys_id>69358d781b30d01046b8c9951a4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_69358d781b30d01046b8c9951a4bcb99^sys_idNOT INe1358d781b30d01046b8c9951a4bcbae"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_69358d781b30d01046b8c9951a4bcb99</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 02:54:32</sys_created_on>
+        <sys_id>e1358d781b30d01046b8c9951a4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Output</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_69358d781b30d01046b8c9951a4bcb99_output_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-13 02:54:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
+        <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_category>none</license_category>
+        <license_model>none</license_model>
+        <logo>179a3fb7db6550106ad79e7aca96198d</logo>
+        <menu/>
+        <name>Microsoft Azure Notification Hub Spoke</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>sn_ms_notification</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>sn_ms_notification</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 06:33:46</sys_created_on>
+        <sys_id>0ad11535db070010c53e57a0cf9619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-29 06:35:58</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>${project.version}</version>
+    </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#fbe36c</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logo</file_name>
+        <hash>9bbe9b9183718cc491ba1e1cf4e70af11fecf84c958a21aaf0782f0b3f39836b</hash>
+        <image_height>64</image_height>
+        <image_width>75</image_width>
+        <size_bytes>2135</size_bytes>
+        <size_compressed>2158</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-29 06:35:57</sys_created_on>
+        <sys_id>179a3fb7db6550106ad79e7aca96198d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-29 06:35:58</sys_updated_on>
+        <table_name>ZZ_YYsys_app</table_name>
+        <table_sys_id>0ad11535db070010c53e57a0cf9619c2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="179a3fb7db6550106ad79e7aca96198d">179a3fb7db6550106ad79e7aca96198d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-29 06:35:57</sys_created_on>
+        <sys_id>579a3fb7db6550106ad79e7aca96198d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2864</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="179a3fb7db6550106ad79e7aca96198d">179a3fb7db6550106ad79e7aca96198d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-29 06:35:57</sys_created_on>
+        <sys_id>d79a3fb7db6550106ad79e7aca96198d</sys_id>
+    </sys_attachment_doc>
+</record_update>

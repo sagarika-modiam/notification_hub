@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_ms_notification.AzureNotificationValidation</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AzureNotificationValidation</name>
+        <script><![CDATA[var AzureNotificationValidation = Class.create();
+AzureNotificationValidation.prototype = {
+    initialize: function() {},
+    inputValidation: function(inputs) {
+        var outputs = {};
+        for (var key in inputs) {
+            if (inputs[key] == null || inputs[key].toString().trim() == "") {
+                throw new Error(key + " cannot be empty ");
+            }
+            outputs[key] = inputs[key].toString().trim();
+        }
+        return outputs;
+
+    },
+
+
+
+    type: 'AzureNotificationValidation'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 02:27:11</sys_created_on>
+        <sys_id>50fedd291b64941061661f46bc4bcb3d</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>AzureNotificationValidation</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_script_include_50fedd291b64941061661f46bc4bcb3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 10:33:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

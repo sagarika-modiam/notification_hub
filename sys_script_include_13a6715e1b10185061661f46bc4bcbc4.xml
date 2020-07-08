@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+  <sys_script_include action="INSERT_OR_UPDATE">
+    <access>package_private</access>
+    <active>true</active>
+    <api_name>sn_ms_notification.AzureNotificationHubErrorHandler</api_name>
+    <caller_access/>
+    <client_callable>false</client_callable>
+    <description/>
+    <name>AzureNotificationHubErrorHandler</name>
+    <script><![CDATA[var AzureNotificationHubErrorHandler = Class.create();
+AzureNotificationHubErrorHandler.prototype = {
+    initialize: function() {},
+    notificationErrors: function(inputObj, respObj) {
+        if (inputObj.Status != 200 || inputObj.Status != 201 || inputObj.Status != 202) {
+            // var respBody = new global.JSON().decode(inputObj['ResponseBody']);
+            if (inputObj.Status == 400) {
+                respObj.error_message = 'Invalid request body. The settings could not be read because the request was malformed (or the validation failed).';
+                return respObj;
+
+            } else if (inputObj.Status == 401) {
+                respObj.error_message = 'Authorization failure. The access key was incorrect.';
+                return respObj;
+
+            } else if (inputObj.Status == 403) {
+                respObj.error_message = 'Quota exceeded.';
+                return respObj;
+
+            } else if (inputObj.Status == 404) {
+                respObj.error_message = 'Namespace or Notification Hub or ID Not found.';
+                return respObj;
+
+
+            } else {
+                respObj.error_message = 'Unknown Error';
+                return respObj;
+            }
+
+        }
+    },
+    updateInstallation: function(inputObj, respObj) {
+        if (inputObj.Status != 200 || inputObj.Status != 204) {
+            // var respBody = new global.JSON().decode(inputObj['ResponseBody']);
+            if (inputObj.Status == 400) {
+                respObj.error_message = 'The installation could not be patched because the request was malformed.';
+                return respObj;
+
+            } else if (inputObj.Status == 401) {
+                respObj.error_message = 'Authorization failure. The access key was incorrect.';
+                return respObj;
+
+            } else if (inputObj.Status == 403) {
+                respObj.error_message = 'Either Quota exceeded; too many registrations in this namespace or Registration not created or Request rejected because API call rate is too high.';
+                return respObj;
+
+            } else {
+                respObj.error_message = 'Unknown Error';
+                return respObj;
+            }
+
+        }
+    },
+    deleteInstallation: function(inputObj, respObj) {
+        if (inputObj.Status != 204) {
+            // var respBody = new global.JSON().decode(inputObj['ResponseBody']);
+            if (inputObj.Status == 401) {
+                respObj.error_message = 'Authorization failure. The access key was incorrect.';
+                return respObj;
+
+            } else if (inputObj.Status == 403) {
+                respObj.error_message = 'Either Quota exceeded; too many registrations in this namespace or Registration not created or Request rejected because API call rate is too high.';
+                return respObj;
+
+            } else {
+                respObj.error_message = 'Unknown Error';
+                return respObj;
+            }
+
+        }
+    },
+    errorMessageNotificationHub: function(inputs, outputs) {
+        var responseBody = JSON.parse(inputs.ResponseBody);
+		if(!responseBody){
+			outputs.error_message = 'Resource not found';
+			return;
+		}
+		if(responseBody.hasOwnProperty('error'))
+			outputs.error_message = responseBody.error.message;
+		else
+			outputs.error_message = responseBody.message;
+		return;
+    },
+    type: 'AzureNotificationHubErrorHandler'
+};]]></script>
+    <sys_class_name>sys_script_include</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2020-04-23 01:50:26</sys_created_on>
+    <sys_id>13a6715e1b10185061661f46bc4bcbc4</sys_id>
+    <sys_mod_count>14</sys_mod_count>
+    <sys_name>AzureNotificationHubErrorHandler</sys_name>
+    <sys_package display_value="Microsoft Azure Notification Hub Spoke" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+    <sys_policy>read</sys_policy>
+    <sys_scope display_value="Microsoft Azure Notification Hub Spoke">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+    <sys_update_name>sys_script_include_13a6715e1b10185061661f46bc4bcbc4</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2020-07-06 13:43:50</sys_updated_on>
+  </sys_script_include>
+</record_update>

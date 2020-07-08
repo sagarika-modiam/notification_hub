@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD29f4291e8f255410114cd270ea1350dd</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>0ad11535db070010c53e57a0cf9619c2</scope_name>
+        <serialized_content>{"FlowDesigner:FD29f4291e8f255410114cd270ea1350dd":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"f27b2a8f-345c-4b34-b3e7-43dd88a50124\"}"},"location":"String","location.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"location\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"c11ca62f-fdef-4fb3-80a2-f85258693b4d\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"645c4993-fa04-40d9-89d1-964496fb6a54\"}"},"type":"String","type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"type\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"9b1b07e7-85cc-4989-9f44-0e55489a0758\"}"},"properties":{"authorizationRules":"String","authorizationRules.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"authorizationRules\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"6ab90817-f35b-413c-a688-cad4fe5e7cc2\"}"},"registrationTtl":"String","registrationTtl.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"registrationTtl\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"6a3d9fbc-ed23-42a1-9a72-0293e093442c\"}"}},"properties.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"properties\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"8af9a242-17a4-4bec-9156-8950ec011b94\"}"}},"FlowDesigner:FD29f4291e8f255410114cd270ea1350dd.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"d7d2ff5a-75cf-41bb-b9e4-ab59f057a117\",\"default_value\":\"\",\"label\":\"Notification Hub\",\"mandatory\":\"false\",\"uiUniqueId\":\"5a207cd4-da84-4f7f-b54c-caeae892abda\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD29f4291e8f255410114cd270ea1350dd\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"b35e7c93-8f57-4167-b141-2d9df62bec7a\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 03:51:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9f4291edb2554106ad79e7aca9619dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD29f4291e8f255410114cd270ea1350dd</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_complex_object_e9f4291edb2554106ad79e7aca9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 04:12:16</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

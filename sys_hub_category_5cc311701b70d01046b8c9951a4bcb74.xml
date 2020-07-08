@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Namespace Management</name>
+        <order>5</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-13 03:58:12</sys_created_on>
+        <sys_id>5cc311701b70d01046b8c9951a4bcb74</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Namespace Management</sys_name>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+        <sys_update_name>sys_hub_category_5cc311701b70d01046b8c9951a4bcb74</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 11:12:15</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=5cc311701b70d01046b8c9951a4bcb74"/>
+</record_update>
