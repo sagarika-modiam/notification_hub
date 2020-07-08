@@ -29,7 +29,7 @@
         <sys_mod_count>15</sys_mod_count>
         <sys_name>BaiduCredential - Notifications</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_541110e81b9c905046b8c9951a4bcb1a</sys_update_name>
@@ -464,7 +464,7 @@
         <sys_id>901110e81b9c905046b8c9951a4bcb31</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_541110e81b9c905046b8c9951a4bcb1a_output_en</sys_update_name>
@@ -951,7 +951,7 @@
         <sys_id>6e4501b81b30d01046b8c9951a4bcbe4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_e24501b81b30d01046b8c9951a4bcbd0_output_en</sys_update_name>

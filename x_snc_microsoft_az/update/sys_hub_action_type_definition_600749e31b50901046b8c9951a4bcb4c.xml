@@ -29,7 +29,7 @@
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Get Properties - Notification Hub</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_600749e31b50901046b8c9951a4bcb4c</sys_update_name>
@@ -478,7 +478,7 @@
         <sys_id>700789e31b50901046b8c9951a4bcb29</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_600749e31b50901046b8c9951a4bcb4c_output_en</sys_update_name>
@@ -979,7 +979,7 @@
         <sys_id>36254d781b30d01046b8c9951a4bcb43</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ba254d781b30d01046b8c9951a4bcb2e_output_en</sys_update_name>

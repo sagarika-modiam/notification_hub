@@ -29,7 +29,7 @@
         <sys_mod_count>16</sys_mod_count>
         <sys_name>GcmCredential - Notifications</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ec9194e81b9c905046b8c9951a4bcb00</sys_update_name>
@@ -454,7 +454,7 @@
         <sys_id>3c9194e81b9c905046b8c9951a4bcb17</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ec9194e81b9c905046b8c9951a4bcb00_output_en</sys_update_name>
@@ -931,7 +931,7 @@
         <sys_id>10358d781b30d01046b8c9951a4bcb17</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cc354d781b30d01046b8c9951a4bcbf5_output_en</sys_update_name>

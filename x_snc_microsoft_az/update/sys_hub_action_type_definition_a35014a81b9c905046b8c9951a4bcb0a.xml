@@ -29,7 +29,7 @@
         <sys_mod_count>11</sys_mod_count>
         <sys_name>Get Properties - Namespace Management</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a35014a81b9c905046b8c9951a4bcb0a</sys_update_name>
@@ -562,7 +562,7 @@
         <sys_id>2f5014a81b9c905046b8c9951a4bcba9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a35014a81b9c905046b8c9951a4bcb0a_output_en</sys_update_name>
@@ -1147,7 +1147,7 @@
         <sys_id>e815c9781b30d01046b8c9951a4bcb79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_6015c9781b30d01046b8c9951a4bcb65_output_en</sys_update_name>

@@ -2,7 +2,7 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_snc_microsoft_az.AzureNotificationValidation</api_name>
+        <api_name>sn_ms_notification.AzureNotificationValidation</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
@@ -32,7 +32,7 @@ AzureNotificationValidation.prototype = {
         <sys_id>50fedd291b64941061661f46bc4bcb3d</sys_id>
         <sys_mod_count>28</sys_mod_count>
         <sys_name>AzureNotificationValidation</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_script_include_50fedd291b64941061661f46bc4bcb3d</sys_update_name>

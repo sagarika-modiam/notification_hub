@@ -29,7 +29,7 @@
         <sys_mod_count>10</sys_mod_count>
         <sys_name>MpnsCredential - Notifications</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_9f7114e81b9c905046b8c9951a4bcbf6</sys_update_name>
@@ -464,7 +464,7 @@
         <sys_id>a37154e81b9c905046b8c9951a4bcb1a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9f7114e81b9c905046b8c9951a4bcbf6_output_en</sys_update_name>
@@ -951,7 +951,7 @@
         <sys_id>e1358d781b30d01046b8c9951a4bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Output</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
+        <sys_package display_value="Microsoft Azure Notification Hub" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_69358d781b30d01046b8c9951a4bcb99_output_en</sys_update_name>

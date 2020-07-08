@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
-    <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
-        <active>true</active>
-        <api_name>x_snc_microsoft_az.AzureNotificationHubErrorHandler</api_name>
-        <caller_access/>
-        <client_callable>false</client_callable>
-        <description/>
-        <name>AzureNotificationHubErrorHandler</name>
-        <script><![CDATA[var AzureNotificationHubErrorHandler = Class.create();
+  <sys_script_include action="INSERT_OR_UPDATE">
+    <access>package_private</access>
+    <active>true</active>
+    <api_name>sn_ms_notification.AzureNotificationHubErrorHandler</api_name>
+    <caller_access/>
+    <client_callable>false</client_callable>
+    <description/>
+    <name>AzureNotificationHubErrorHandler</name>
+    <script><![CDATA[var AzureNotificationHubErrorHandler = Class.create();
 AzureNotificationHubErrorHandler.prototype = {
     initialize: function() {},
     notificationErrors: function(inputObj, respObj) {
@@ -77,40 +77,31 @@ AzureNotificationHubErrorHandler.prototype = {
 
         }
     },
-    errorMessageNotificationHub: function(inputObj, respObj) {
-        if (inputObj.Status != 200) {
-            if (inputObj.Status == 404) {
-                respObj.error_message = 'Either Subscription ID or Resource Group or Namespace or Notification Hub or API Version entered is invalid or not found.';
-                return respObj;
-
-            } else if (inputObj.Status == 400) {
-                respObj.error_message = 'Either mismatch between properties or property values entered are invalid.';
-                return respObj;
-
-            } else if (inputObj.Status == 429 || inputObj.Status == 503) {
-                respObj.error_message = 'Requests beyond max requests that can be processed by available resources.';
-                return respObj;
-
-            } else {
-                respObj.error_message = 'Unknown Error';
-                return respObj;
-            }
-
-        }
+    errorMessageNotificationHub: function(inputs, outputs) {
+        var responseBody = JSON.parse(inputs.ResponseBody);
+		if(!responseBody){
+			outputs.error_message = 'Resource not found';
+			return;
+		}
+		if(responseBody.hasOwnProperty('error'))
+			outputs.error_message = responseBody.error.message;
+		else
+			outputs.error_message = responseBody.message;
+		return;
     },
     type: 'AzureNotificationHubErrorHandler'
 };]]></script>
-        <sys_class_name>sys_script_include</sys_class_name>
-        <sys_created_by>sagarika.modiam@snc</sys_created_by>
-        <sys_created_on>2020-04-23 01:50:26</sys_created_on>
-        <sys_id>13a6715e1b10185061661f46bc4bcbc4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>AzureNotificationHubErrorHandler</sys_name>
-        <sys_package display_value="Microsoft Azure Notification Hub" source="x_snc_microsoft_az">0ad11535db070010c53e57a0cf9619c2</sys_package>
-        <sys_policy>read</sys_policy>
-        <sys_scope display_value="Microsoft Azure Notification Hub">0ad11535db070010c53e57a0cf9619c2</sys_scope>
-        <sys_update_name>sys_script_include_13a6715e1b10185061661f46bc4bcbc4</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-29 10:32:10</sys_updated_on>
-    </sys_script_include>
+    <sys_class_name>sys_script_include</sys_class_name>
+    <sys_created_by>admin</sys_created_by>
+    <sys_created_on>2020-04-23 01:50:26</sys_created_on>
+    <sys_id>13a6715e1b10185061661f46bc4bcbc4</sys_id>
+    <sys_mod_count>14</sys_mod_count>
+    <sys_name>AzureNotificationHubErrorHandler</sys_name>
+    <sys_package display_value="Microsoft Azure Notification Hub Spoke" source="sn_ms_notification">0ad11535db070010c53e57a0cf9619c2</sys_package>
+    <sys_policy>read</sys_policy>
+    <sys_scope display_value="Microsoft Azure Notification Hub Spoke">0ad11535db070010c53e57a0cf9619c2</sys_scope>
+    <sys_update_name>sys_script_include_13a6715e1b10185061661f46bc4bcbc4</sys_update_name>
+    <sys_updated_by>admin</sys_updated_by>
+    <sys_updated_on>2020-07-06 13:43:50</sys_updated_on>
+  </sys_script_include>
 </record_update>
